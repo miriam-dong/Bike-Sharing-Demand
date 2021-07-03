@@ -1973,7 +1973,8 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \pixel=\skip102
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 174.
- (slides.aux)
+
+No file slides.aux.
 \openout1 = `slides.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
@@ -1997,7 +1998,6 @@ LaTeX Font Info:    ... okay on input line 174.
 LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 174.
 LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
  174.
-
 (D:\Program Files\MiKTeX\tex/latex/fouriernc\fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
@@ -2069,10 +2069,12 @@ LaTeX Info: Redefining \ref on input line 174.
 LaTeX Info: Redefining \pageref on input line 174.
 LaTeX Info: Redefining \nameref on input line 174.
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 (slides.bm) (slides.bm)
 \openout3 = `slides.bm'.
 
- (slides.toc)
 \openout4 = `slides.toc'.
 
 Package caption Info: Begin \AtBeginDocument code.
@@ -2150,26 +2152,40 @@ Missing character: There is no  in font fourier-mex!
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 11.15991pt on input line 177.
  [2]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 187.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 187.
- [3]
+(Font)              scaled to size 7.43994pt on input line 187.
+
+
+LaTeX Warning: Reference `lastslide' on page 3 undefined on input line 187.
+
+[3]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 19.28804pt on input line 192.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 19.28804pt on input line 192.
- [4]
+
+
+LaTeX Warning: Reference `lastslide' on page 4 undefined on input line 192.
+
+[4]
+
+LaTeX Warning: Reference `lastslide' on page 5 undefined on input line 254.
+
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
 54.
-
 (D:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [5] [6]
+) [5]
+
+LaTeX Warning: Reference `lastslide' on page 6 undefined on input line 337.
+
+[6]
+
+LaTeX Warning: Reference `lastslide' on page 7 undefined on input line 394.
+
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 394.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 394.
 See the caption package documentation for explanation.
@@ -2179,7 +2195,15 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 394.
 See the caption package documentation for explanation.
 
-[7] [8]
+[7]
+
+LaTeX Warning: Reference `lastslide' on page 8 undefined on input line 438.
+
+[8]
+
+LaTeX Warning: Reference `lastslide' on page 9 undefined on input line 500.
+
+
 Overfull \hbox (31.3592pt too wide) in paragraph at lines 500--500
 [][]\T1/fnc/m/n/14.4 14ptTest.  
  []
@@ -2196,17 +2220,38 @@ Overfull \hbox (31.3592pt too wide) in paragraph at lines 500--500
 
 [9]
 
+LaTeX Warning: Reference `lastslide' on page 10 undefined on input line 559.
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 559.
 See the caption package documentation for explanation.
 
 [10]
 
+LaTeX Warning: Reference `lastslide' on page 11 undefined on input line 615.
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 615.
 See the caption package documentation for explanation.
 
-[11] [12] [13] [14]
+[11]
+
+LaTeX Warning: Reference `lastslide' on page 12 undefined on input line 620.
+
+[12]
+
+LaTeX Warning: Reference `lastslide' on page 13 undefined on input line 695.
+
+[13]
+
+LaTeX Warning: Reference `lastslide' on page 14 undefined on input line 770.
+
+[14]
+
+LaTeX Warning: Reference `lastslide' on page 15 undefined on input line 840.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 840.
@@ -2217,19 +2262,44 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 840.
 See the caption package documentation for explanation.
 
-[15] [16] [17] [18] [19]
+[15]
+
+LaTeX Warning: Reference `lastslide' on page 16 undefined on input line 877.
+
+[16]
+
+LaTeX Warning: Reference `lastslide' on page 17 undefined on input line 911.
+
+[17]
+
+LaTeX Warning: Reference `lastslide' on page 18 undefined on input line 947.
+
+[18]
+
+LaTeX Warning: Reference `lastslide' on page 19 undefined on input line 952.
+
+[19]
+
+LaTeX Warning: Reference `lastslide' on page 20 undefined on input line 991.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 991.
 See the caption package documentation for explanation.
 
 [20]
+
+LaTeX Warning: Reference `lastslide' on page 21 undefined on input line 1055.
+
+
 Overfull \hbox (31.3592pt too wide) in paragraph at lines 1055--1055
 [][]\T1/fnc/m/n/14.4 14ptTest.  
  []
 
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 7.06795pt on input line 1055.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 1055.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 1055.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -2257,6 +2327,9 @@ See the caption package documentation for explanation.
 Missing character: There is no  in font fourier-mex!
 [21]
 
+LaTeX Warning: Reference `lastslide' on page 22 undefined on input line 1100.
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1100.
 See the caption package documentation for explanation.
@@ -2266,7 +2339,22 @@ Overfull \hbox (21.00186pt too wide) in paragraph at lines 1100--1100
 [][] 
  []
 
-[22] [23] [24] [25]
+[22]
+
+LaTeX Warning: Reference `lastslide' on page 23 undefined on input line 1142.
+
+[23]
+
+LaTeX Warning: Reference `lastslide' on page 24 undefined on input line 1174.
+
+[24]
+
+LaTeX Warning: Reference `lastslide' on page 25 undefined on input line 1210.
+
+[25]
+
+LaTeX Warning: Reference `lastslide' on page 26 undefined on input line 1257.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1257.
@@ -2274,11 +2362,25 @@ See the caption package documentation for explanation.
 
 [26]
 
+LaTeX Warning: Reference `lastslide' on page 27 undefined on input line 1324.
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1324.
 See the caption package documentation for explanation.
 
-[27] [28] [29]
+[27]
+
+LaTeX Warning: Reference `lastslide' on page 28 undefined on input line 1373.
+
+[28]
+
+LaTeX Warning: Reference `lastslide' on page 29 undefined on input line 1378.
+
+[29]
+
+LaTeX Warning: Reference `lastslide' on page 30 undefined on input line 1412.
+
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 8.36993pt on input line 1412.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -2294,8 +2396,11 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 1412.
 Missing character: There is no  in font fourier-mex!
- [30]
+[30]
 Missing character: There is no  in font fourier-mex!
+
+
+LaTeX Warning: Reference `lastslide' on page 31 undefined on input line 1466.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2303,10 +2408,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 1466.
+(Font)              scaled to size 13.39188pt on input line 1466.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 7.43994pt on input line 1466.
+(Font)              scaled to size 9.29993pt on input line 1466.
 [31]
+
+LaTeX Warning: Reference `lastslide' on page 32 undefined on input line 1511.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1511.
@@ -2319,12 +2427,18 @@ Overfull \hbox (4.66704pt too wide) in paragraph at lines 1511--1511
 
 [32]
 
+LaTeX Warning: Reference `lastslide' on page 33 undefined on input line 1551.
+
+
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 1551.
 
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
 (Font)              scaled to size 13.39188pt on input line 1551.
 [33]
+
+LaTeX Warning: Reference `lastslide' on page 34 undefined on input line 1591.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1591.
@@ -2376,6 +2490,9 @@ Overfull \hbox (7.89871pt too wide) in paragraph at lines 1591--1591
  []
 
 [34]
+
+LaTeX Warning: Reference `lastslide' on page 35 undefined on input line 1641.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1641.
@@ -2433,13 +2550,605 @@ Overfull \hbox (1.67804pt too wide) in paragraph at lines 1641--1641
 
 [35]
 
+LaTeX Warning: Reference `lastslide' on page 36 undefined on input line 1678.
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1678.
 See the caption package documentation for explanation.
 
-[36] [37] [38]
+[36]
+
+LaTeX Warning: Reference `lastslide' on page 37 undefined on input line 1683.
+
+[37]
+
+LaTeX Warning: Reference `lastslide' on page 38 undefined on input line 1720.
+
+[38]
+
+LaTeX Warning: Reference `lastslide' on page 39 undefined on input line 1733.
+
 
 slides.tex:1733: Package animate Error: None of the files
 (animate)                `figures//gif//question//q_1.eps',
 (animate)                `figures//gif//question//q_1.mps' or
-(animate)                `figures//gif
+(animate)                `figures//gif//question//q_1.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+slides.tex:1733: LaTeX Error: Cannot determine size of graphic in translations-
+basic-dictionary-english.trsl (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: translations-basic-dictionary-english.trsl Graphic file (type eps)
+<translations-basic-dictionary-english.trsl> <a0,fr0>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_2.eps',
+(animate)                `figures//gif//question//q_2.mps' or
+(animate)                `figures//gif//question//q_2.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr1>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_3.eps',
+(animate)                `figures//gif//question//q_3.mps' or
+(animate)                `figures//gif//question//q_3.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr2>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_4.eps',
+(animate)                `figures//gif//question//q_4.mps' or
+(animate)                `figures//gif//question//q_4.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr3>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_5.eps',
+(animate)                `figures//gif//question//q_5.mps' or
+(animate)                `figures//gif//question//q_5.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr4>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_6.eps',
+(animate)                `figures//gif//question//q_6.mps' or
+(animate)                `figures//gif//question//q_6.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr5>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_7.eps',
+(animate)                `figures//gif//question//q_7.mps' or
+(animate)                `figures//gif//question//q_7.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr6>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_8.eps',
+(animate)                `figures//gif//question//q_8.mps' or
+(animate)                `figures//gif//question//q_8.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr7>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_9.eps',
+(animate)                `figures//gif//question//q_9.mps' or
+(animate)                `figures//gif//question//q_9.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr8>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_10.eps',
+(animate)                `figures//gif//question//q_10.mps' or
+(animate)                `figures//gif//question//q_10.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr9>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_11.eps',
+(animate)                `figures//gif//question//q_11.mps' or
+(animate)                `figures//gif//question//q_11.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr10>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_12.eps',
+(animate)                `figures//gif//question//q_12.mps' or
+(animate)                `figures//gif//question//q_12.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr11>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_13.eps',
+(animate)                `figures//gif//question//q_13.mps' or
+(animate)                `figures//gif//question//q_13.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr12>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_14.eps',
+(animate)                `figures//gif//question//q_14.mps' or
+(animate)                `figures//gif//question//q_14.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr13>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_15.eps',
+(animate)                `figures//gif//question//q_15.mps' or
+(animate)                `figures//gif//question//q_15.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr14>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_16.eps',
+(animate)                `figures//gif//question//q_16.mps' or
+(animate)                `figures//gif//question//q_16.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr15>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_17.eps',
+(animate)                `figures//gif//question//q_17.mps' or
+(animate)                `figures//gif//question//q_17.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr16>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_18.eps',
+(animate)                `figures//gif//question//q_18.mps' or
+(animate)                `figures//gif//question//q_18.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr17>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_19.eps',
+(animate)                `figures//gif//question//q_19.mps' or
+(animate)                `figures//gif//question//q_19.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr18>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_20.eps',
+(animate)                `figures//gif//question//q_20.mps' or
+(animate)                `figures//gif//question//q_20.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr19>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_21.eps',
+(animate)                `figures//gif//question//q_21.mps' or
+(animate)                `figures//gif//question//q_21.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr20>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_22.eps',
+(animate)                `figures//gif//question//q_22.mps' or
+(animate)                `figures//gif//question//q_22.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr21>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_23.eps',
+(animate)                `figures//gif//question//q_23.mps' or
+(animate)                `figures//gif//question//q_23.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr22>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_24.eps',
+(animate)                `figures//gif//question//q_24.mps' or
+(animate)                `figures//gif//question//q_24.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr23>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_25.eps',
+(animate)                `figures//gif//question//q_25.mps' or
+(animate)                `figures//gif//question//q_25.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr24>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_26.eps',
+(animate)                `figures//gif//question//q_26.mps' or
+(animate)                `figures//gif//question//q_26.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr25>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_27.eps',
+(animate)                `figures//gif//question//q_27.mps' or
+(animate)                `figures//gif//question//q_27.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr26>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_28.eps',
+(animate)                `figures//gif//question//q_28.mps' or
+(animate)                `figures//gif//question//q_28.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr27>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_29.eps',
+(animate)                `figures//gif//question//q_29.mps' or
+(animate)                `figures//gif//question//q_29.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr28>
+
+slides.tex:1733: Package animate Error: None of the files
+(animate)                `figures//gif//question//q_30.eps',
+(animate)                `figures//gif//question//q_30.mps' or
+(animate)                `figures//gif//question//q_30.ps'
+(animate)                could be found.
+(animate)                Wrong file type? Mis-spelled file name?.
+
+See the animate package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1733 \end{slide}
+                  
+(That was another \errmessage.)
+
+<a0,fr29> [39]
+
+LaTeX Warning: Reference `lastslide' on page 40 undefined on input line 1764.
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 1764.
+
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 1764.
+(D:\Program Files\MiKTeX\tex/latex/fontawesome\ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+
+LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 1764.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
+(Font)              scaled to size 13.39188pt on input line 1764.
+LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
+(Font)              scaled to size 9.29993pt on input line 1764.
+[40]
+slides.tex:1766: Undefined control sequence.
+\endtrivlist ...ter {pd@trivlist}\m@ne \pd@revert 
+                                                  {\global \expandafter \let...
+l.1766 \end{document}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[41] (slides.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 52083 strings out of 478865
+ 1124383 string characters out of 2858540
+ 1737282 words of memory out of 3000000
+ 68940 multiletter control sequences out of 15000+600000
+ 454011 words of font info for 109 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 94i,15n,117p,2374b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on slides.dvi (41 pages, 348028 bytes).
