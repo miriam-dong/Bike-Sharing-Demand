@@ -9478,4 +9478,275 @@ LaTeX Info: Redefining \genfrac on input line 149.
 \prerelpenalty=\count420
 \prebinoppenalty=\count421
 \Dmedmuskip=\muskip20
-\Dthickmuskip=\musk
+\Dthickmuskip=\muskip21
+\eqleftskip=\skip88
+\eqrightskip=\skip89
+\eq@vspan=\skip90
+\eq@binoffset=\muskip22
+\EQ@box=\box103
+\EQ@copy=\box104
+\EQ@numbox=\box105
+\eq@wdNum=\dimen391
+\GRP@numbox=\box106
+\grp@wdNum=\dimen392
+\eq@lines=\count422
+\eq@curline=\count423
+\eq@badness=\count424
+\EQ@vims=\count425
+\eq@dp=\dimen393
+\eq@wdL=\dimen394
+\eq@wdT=\dimen395
+\eq@wdMin=\dimen396
+\grp@wdL=\dimen397
+\grp@wdR=\dimen398
+\grp@wdT=\dimen399
+\eq@wdRmax=\dimen400
+\eq@firstht=\dimen401
+\eq@wdCond=\dimen402
+\eq@indentstep=\dimen403
+\eq@linewidth=\dimen404
+\grp@linewidth=\dimen405
+\eq@hshift=\dimen406
+\eq@given@sidespace=\dimen407
+\eq@final@linecount=\count426
+\eq@wdR=\dimen408
+\EQ@continue=\toks61
+\lr@level=\count427
+\GRP@queue=\toks62
+\GRP@box=\box107
+\GRP@wholebox=\box108
+\darraycolsep=\skip91
+\cur@row=\count428
+\cur@col=\count429
+\conditionsep=\skip92
+)
+(D:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip93
+\multirow@cntb=\count430
+\multirow@dima=\skip94
+\bigstrutjot=\dimen409
+)
+(D:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip95
+\bibsep=\skip96
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count431
+)
+(D:\Program Files\MiKTeX\tex/latex/natbib\bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+(D:\Program Files\MiKTeX\tex/latex/gitinfo2\gitinfo2.sty
+Package: gitinfo2 2015/11/22 v2.0.7 git revision information
+
+(D:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen410
+\ESO@tempdimb=\dimen411
+)
+
+Package gitinfo2 Warning: I can't find the file '.git/gitHeadInfo.gin'.
+(gitinfo2)                All git metadata has been set to '(None)'.
+
+) (D:\Program Files\MiKTeX\tex/latex/units\nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip97
+\L@UnitsRaiseTextstyle=\skip98
+\L@UnitsRaiseScriptstyle=\skip99
+)
+(D:\Program Files\MiKTeX\tex/latex/media9\media9.sty
+Package: media9 2021/06/11 v1.16 acrobat-9/Xcompatiblemedia
+\g_mix_pkgresizeflag_int=\count432
+
+(D:\Program Files\MiKTeX\tex/latex/media9\pdfbase.sty
+Package: pdfbase 2021/06/11 v0.47 driverindependentaccesstolow-levelPDFfeatures
+
+\g_pbs_page_int=\count433
+\g_pbs_obj_int=\count434
+\g_pbs_oc_int=\count435
+)
+(D:\Program Files\MiKTeX\tex/latex/ocgx2\ocgbase.sty
+Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count436
+)
+\l_mix_poster_box=\box109
+\g_mix_wd_dim=\dimen412
+\g_mix_ht_dim=\dimen413
+\g_mix_dp_dim=\dimen414
+\g_mix_rmcnt_int=\count437
+\l_mix_viewcnt_int=\count438
+\g@mix@page@int=\count439
+\g_mix_resizeflag_int=\count440
+\l_mix_lineno_int=\count441
+\l_mix_pbtn_box=\box110
+\g_mix_mbtncnt_int=\count442
+\mix@btn@dim=\dimen415
+)
+(D:\Program Files\MiKTeX\tex/latex/animate\animate.sty
+Package: animate 2021/06/11 PDF & SVG animations from files and inline graphics
+
+
+(D:\Program Files\MiKTeX\tex/latex/oberdiek\ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(D:\Program Files\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(D:\Program Files\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count443
+Package zref Info: New property: abspage on input line 66.
+)
+\@anim@box=\box111
+\@anim@measbox=\box112
+\@anim@tmpdima=\dimen416
+\@anim@tmpdimb=\dimen417
+\@anim@num=\count444
+\@anim@curframe=\count445
+\@anim@curframe@zb=\count446
+\@anim@resizeflags=\count447
+\@anim@skipfram=\count448
+\@anim@mulframecnt=\count449
+\@anim@@tmlnfile=\read6
+\@anim@tmpcnt=\count450
+\c@@anim@ltxcnt=\count451
+\@anim@curlayer=\count452
+\@anim@lineno=\count453
+\@anim@curfield=\count454
+\@anim@@resizeflags=\count455
+)
+(D:\Program Files\MiKTeX\tex/latex/auto-pst-pdf\auto-pst-pdf.sty
+Package: auto-pst-pdf 2020/10/08 v0.7 Wrapper for pst-pdf
+
+(D:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(D:\Program Files\MiKTeX\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(D:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(D:\Program Files\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+)
+\c@app@runs=\count456
+ (D:\Program Files\MiKTeX\tex/latex/pst-pdf\pst-pdf.sty
+Package: pst-pdf 2020/10/10 v1.2f PS graphics for pdfLaTeX (RN,HjG)
+\c@pspicture=\count457
+Package pst-pdf Info: MODE: 9 (inactive mode) on input line 457.
+))
+(D:\Program Files\MiKTeX\tex/latex/breakurl\breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+\burl@toks=\toks63
+)
+(D:\Program Files\MiKTeX\tex/latex/fontawesome\fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(D:\Program Files\MiKTeX\tex/latex/fontawesome\fontawesomesymbols-generic.tex)
+(D:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(D:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count458
+\l__fontspec_language_int=\count459
+\l__fontspec_strnum_int=\count460
+\l__fontspec_tmp_int=\count461
+\l__fontspec_tmpa_int=\count462
+\l__fontspec_tmpb_int=\count463
+\l__fontspec_tmpc_int=\count464
+\l__fontspec_em_int=\count465
+\l__fontspec_emdef_int=\count466
+\l__fontspec_strong_int=\count467
+\l__fontspec_strongdef_int=\count468
+\l__fontspec_tmpa_dim=\dimen418
+\l__fontspec_tmpb_dim=\dimen419
+\l__fontspec_tmpc_dim=\dimen420
+
+(D:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(D:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.cfg)))
+
+Package fontspec Info: Could not resolve font "FontAwesome/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FontAwesome/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FontAwesome/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FontAwesome(0)' created for font
+(fontspec)             'FontAwesome' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FontAwesome/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+(D:\Program Files\MiKTeX\tex/latex/fontawesome\fontawesomesymbols-xeluatex.tex)
+) (D:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count469
+\mult@box=\box113
+\multicol@leftmargin=\dimen421
+\c@unbalance=\count470
+\c@collectmore=\count471
+\doublecol@number=\count472
+\multicoltolerance=\count473
+\multicolpretolerance=\count474
+\full@width=\dimen422
+\page@free=\dimen423
+\premulticols=\dimen424
+\postmulticols=\dimen425
+\multicolsep=\skip100
+\multicolbaselineskip=\skip101
+\partial@page=\box114
+\last@line=\box115
+\maxbalancingoverflow=\dimen426
+\mult@rightbox=\box116
+\mult@grightbox=\box117
+\mult@gfirstbox=\box118
+\mult@firstbox=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\@tempa=\box140
+\@te
