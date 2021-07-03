@@ -1,0 +1,14 @@
+\pdcontentsline{1}{3}{Problem Definition}
+\pdcontentsline{0}{4}{Outlying Aspects Mining}
+\pdcontentsline{0}{6}{Group Outlying Aspects Mining}
+\pdcontentsline{1}{11}{Related Work and Challenges}
+\pdcontentsline{0}{12}{Related Work - Outlying Aspects Mining}
+\pdcontentsline{0}{15}{Challenges (1)}
+\pdcontentsline{1}{18}{GOAM Algorithm}
+\pdcontentsline{0}{20}{Step One - Group Feature Extraction}
+\pdcontentsline{0}{21}{Step Two - Outlying Degree Scoring}
+\pdcontentsline{0}{23}{Step Three - Outlying Aspects Identification}
+\pdcontentsline{1}{28}{Evaluation Results}
+\pdcontentsline{0}{30}{Synthetic Dataset}
+\pdcontentsline{0}{32}{NBA Dataset}
+\pdcontentsline{1}{36}{Conclusion}
