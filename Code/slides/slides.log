@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  4 JUL 2021 02:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  4 JUL 2021 02:22
 entering extended mode
 **./slides.tex
 (slides.tex
@@ -2552,10 +2552,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  52138 strings out of 478865
  1125253 string characters out of 2858540
- 1783157 words of memory out of 3000000
+ 1783138 words of memory out of 3000000
  68995 multiletter control sequences out of 15000+600000
  454011 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,15n,117p,2374b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on slides.dvi (40 pages, 727924 bytes).
+Output written on slides.dvi (40 pages, 727528 bytes).
