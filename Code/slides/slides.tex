@@ -463,7 +463,7 @@ probably due to the lower temperature.
 %%==========================================================================================
 %%
 \begin{slide}{Correlation analysis}
-  \vspace{-1.5cm}
+  \vspace{-1cm}
   \begin{figure}
   \centering
   \selectcolormodel{rgb}
@@ -485,7 +485,7 @@ probably due to the lower temperature.
     hour>temp>atemp>humidity>month>season>year>weather>windspeed
     >workingday>weekday>day>(holiday)
     \end{itemize}
-
+  \vspace{-0.8cm}
   \begin{figure}
     \centering
     \selectcolormodel{rgb}
@@ -496,369 +496,40 @@ probably due to the lower temperature.
   
   
   \end{slide}
-  %%
-  %%==========================================================================================
-    
-%%==========================================================================================
-%%
-\begin{slide}{ Weather characteristics analysis}
-
-\begin{itemize}
-\item
-\smallskip
-Suppose $f_1$, $f_2$, $f_3$ are three features of $G_q$.
-
-$f_1$: \{$x_1, x_2, x_3, x_4, x_5, x_2, x_3, x_4, x_1, x_2$\} \\
-
-$f_2$: \{$y_2, y_2, y_1, y_2, y_3, y_3, y_5, y_4, y_4, y_2$\} \\
-
-$f_3$: \{$z_1, z_4, z_2, z_4, z_5, z_3, z_1, z_2, z_4, z_2$\} \\
-\end{itemize}
-
-\begin{figure}[htbp]
-    \centering
-    \subfigure[$f_1$]{
-        \selectcolormodel{rgb}
-        \missingfigure[figwidth=5.5cm]{Test.}
-        %\includegraphics[width=0.25\textwidth]{figures//frequency-distribution-feature1.eps}
-        \label{fig:fre-dis-f1}
-    }
-    \subfigure[$f_2$]{
-        \selectcolormodel{rgb}
-        \missingfigure[figwidth=5.5cm]{Test.}
-        \label{fig:fre-dis-f2}
-    }
-    \subfigure[$f_3$]{
-        \selectcolormodel{rgb}
-        \missingfigure[figwidth=5.5cm]{Test.}
-        \label{fig:fre-dis-f3}
-    }
-    \caption{Histogram of $G_q$ on three features}
-    \label{fig:fre-dis-each-feature}
-\end{figure}
-
-
-\end{slide}
 %%
 %%==========================================================================================
+  
+\section{Modelling and evaluation}
 
 
 %%==========================================================================================
 %%
-\begin{slide}{Step Two - Outlying Degree Scoring}
-%Step Two - Outlying Degree Scoring
-\begin{itemize}
-\item
-Calculate Earth Mover Distance
+  \begin{slide}{Modelling}
+  
+  \begin{itemize}
+  \item
+  Select random forest model
+  \item
+  Grid search was used to determine the optimal parameters
+  \begin{itemize}
+    \item
+    'n_estimators': 950
+    \item
+    'max_depth': 9
+    \item
+    'min_samples_split': 10
+  \end{itemize} 
 
-\begin{itemize}
-\item
-Represent one feature among different groups
 
-\item
-Purpose: calculate the minimum mean distance
-\end{itemize}
+  \end{itemize} 
 
-\begin{figure}
-   \selectcolormodel{rgb}
-   \missingfigure{Make a sketch of the structure of a trebuchet.}
-%  \includegraphics[width=0.4\textwidth]{figures//example3.eps}\\
-   \caption{EMD of one feature}\label{EMD}
-\end{figure}
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-The second step is outlying degree scoring,
-which is to evaluate the outlying degree between the target group and competitive groups.
-
-First,
-we calculate the earth mover distance of one feature in different groups.
-
-The earth mover distance reflects the minimum mean distance between
-the target group and other groups on one feature.
-
-Later on,
-we utilize the EMD to measure the differences between groups.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
+  
+  
+  
+  \end{slide}
 %%
 %%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Step Two - Outlying Degree Scoring}
-
-\begin{itemize}
-\item
-Calculate the outlying degree
-
-\vspace{1.2cm}
-
-\begin{centering}
-
-$ OD(G_q) = \sum_{1}^{n}EDM(h_{q_s}, h_{k_s}) $
-
-\end{centering}
-
-\begin{itemize}
-\item
-n $\Leftrightarrow$ the number of contrast groups.
-
-\item
-$h_{k_s}$  $\Leftrightarrow$ the histogram representation of $G_k$ in the subspace s.
-
-\end{itemize}
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-Base on the earth mover distance,
-we can calculate the outlying degree using the formula shown on the screen.
-
-This formula is the outlying degree scoring function,
-n represents the number of competitive groups.
-$h_{k_s}$ is the histogram of $G_k$ in the subspace s.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}{Step Three - Outlying Aspects Identification}
-%Step Three - Outlying Aspects Identification
-\begin{itemize}
-\item
-Identify group outlying aspects mining based on the value
-of outlying degree.
-
-\item
-The greater the outlying degree is,
-the more likely it is group outlying aspect.
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-Next,
-let me talk about the third step.
-
-In this step,
-we identify the group outlying aspects according to the value of the outlying degree.
-
-If a feature's outlying degree is greater,
-it is more likely to be a group outlying aspect.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Pseudo code}
-
-\begin{itemize}
-\item
-Pseudo code of GOAM algorithm
-
-\end{itemize}
-
-\begin{figure}
-  \centering
-  \selectcolormodel{rgb}
-  \missingfigure[figwidth=16cm]{Testing a long text string}
-  %\includegraphics[width=0.75\textwidth]{figures//GOAM.eps}\\
-  %\caption{GOAM Algorithm}\label{OS-Identification}
-\end{figure}
-
-%%==========================================================================================
-\begin{note}
-Last,
-we use the outlying degree to identify the specific group outlying aspects.
-
-The pseudo code of GOAM algorithm is as follows.
-The input is the group data,
-the output is outlying aspects of specific group ($G_1$).
-
-The details of the algorithm I will use an example to explain.
-\end{note}
-
-%%==========================================================================================
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Illustration}
-% Outlying Aspects Identification
-\begin{table}
-\setlength{\abovecaptionskip}{0pt}
-\setlength{\belowcaptionskip}{10pt}
-\centering
-\caption{Original Dataset}
-\begin{tabular}{ccccc | ccccc}
-  \toprule
-  $G_1$ & $F_1$ & $F_2$ & $F_3$ & $F_4$ & $G_2$ & $F_1$ & $F_2$ & $F_3$ & $F_4$ \\
-  \midrule
-   &10 & 8 & 9 & 8 & &7 & 7 & 6 & 6 \\
-   &9  & 9 & 7 & 9 & &8 & 9 & 9 & 8 \\
-   &8  & 10& 8 & 8 & &6 & 7 & 8 & 9  \\
-   &8  & 8 & 6 & 7 & &7 & 7 & 7 & 8  \\
-   &9  & 9 & 9 & 8 & &8 & 6 & 6 & 7  \\
-   \midrule
-   $G_3$ & $F_1$ & $F_2$ & $F_3$ & $F_4$ & $G_4$ & $F_1$ & $F_2$ & $F_3$ & $F_4$ \\
-   \midrule
-   &8 & 10 & 8 & 8 & &9 & 8 & 8 & 8\\
-   &9 & 9  & 7 & 9 & &7 & 7 & 7 & 9\\
-   &10& 9  & 10& 7 & &8 & 6 & 6 & 8\\
-   &9 & 10 & 8 & 6 & &9 & 8 & 8 & 7\\
-   &9 & 9  & 7 & 9 & &8 & 7 & 9 & 8\\
-  \bottomrule
-\end{tabular}
-\end{table}
-
-%%==========================================================================================
-\begin{note}
-Next,
-let me use an example to explain GOAM algorithm.
-
-Suppose we have four groups.
-Each group has four features,
-and
-the specific values are shown in table $3$.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Illustration}
-
-\setlength{\abovecaptionskip}{0pt}
-\setlength{\belowcaptionskip}{10pt}
-\centering
-\begin{table}
-\caption{outlying degree of each possible subspaces}
-
-\begin{tabular}{c|c|c|c}
-  \toprule
-  % after \\: \hline or \cline{col1-col2} \cline{col3-col4}
-  Feature & Outlying Degree & Feature & Outlying Degree \\
-  \midrule
-  \textcolor{orange}{\{$F_1$\}}  & 4.351  & \{$F_2, F_3$\}  & 4.023 \\
-  \{$F_2$\}  & 2.012                      & \textcolor{orange}{\{$F_3, F_4$\}} & 4.324 \\
-  \{$F_3$\}  & 1.392                      & \{$F_2, F_4$\} & 2.018 \\
-  \{$F_4$\}  & 2.207                      & \{$F_2, F_3, F_4$\} & 2.012 \\
-  \bottomrule
-\end{tabular}
-\end{table}
-
-\bigskip
-
-\twocolumn{
-\begin{itemize}
-\item
-Search process:\\
-$OD(\{$$F_1$$\}) > \alpha$, save to $T_1$.\\
-$OD(\{$$F_2$$\}) < \alpha$, save to $C_1$.\\
-$OD(\{$$F_3$$\}) < \alpha$, save to $C_2$. \\
-$OD(\{$$F_4$$\}) < \alpha$, save to $C_3$. \\
-\end{itemize}}
-{
-\vspace{.75cm}
-$OD(\{$$F_2, F_3$$\}) > \alpha$, save to $N_1$. \\
-$OD(\{$$F_3, F_4$$\}) > \alpha$, save to $N_2$. \\
-$OD(\{$$F_2, F_4$$\}) < \alpha$, remove. \\
-$OD(\{$$F_2, F_3, F_4$$\}) < \alpha$, remove. \\
-}
-%Sort $N_i$ in descending order,
-%add subspace with top-k outlying degree in $N_i$ to $O_k$
-
-%%==========================================================================================
-\begin{note}
-According to the outlying degree scoring function,
-we can get the outlying degree of each possible subspace.
-
-So that we can filter out the candidate subspaces.
-Next is to sort the candidate subspaces in
-descending order and then we pick out the top-k subspaces.
-
-The result is as shown in table $4$.
-As a result,
-the top-1 group outlying aspect is \{$F_1$\}.
-The top-2 group outlying aspects include
-trivial feature \{$F_1$\},
-and non-trivial subspace \{$F_3, F_4$\}.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Strengths of GOAM Algorithm}
-\begin{itemize}
-\item
-\textcolor{orange}{Reduction of Complexity}
-
-\begin{itemize}
-\item
-Bottom-up search strategy.
-
-\item
-Reduce the size of candidate subspaces.
-
-\end{itemize}
-
-\item
-\textcolor{orange}{Efficiency}
-
-\begin{itemize}
-\item
-Before: $O(2^d)$  \\
-Now:    $O(d*n^{2})$
-
-\end{itemize}
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-In terms of the strengths of GOAM algorithm.
-
-I would like to talk about two main advantages of this algorithm.
-First is the reduction of complexity.
-GOAM algorithm utilizes the bottom up search method;
-what's more,
-it can reduce the size of candidate subspaces.
-
-Second is efficiency.
-The previous time complexity is O($2^d$);
-however,
-current time complexity if only O($d*n^2$).
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
+      
 
 
 \section{Evaluation Results}
@@ -882,18 +553,6 @@ T: Real outlying aspects}
 \end{itemize}
 \end{center}
 
-%%==========================================================================================
-\begin{note}
-Before showing the experiment results,
-I will introduce the evaluation of the experiment.
-
-We use accuracy formula to make comparisons between GOAM algorithm
-and outlying aspect mining method.
-In the accuracy formula,
-P stands for identified outlying aspects;
-and T means the real outlying aspects.
-\end{note}
-%%==========================================================================================
 
 \end{slide}
 %%
@@ -1188,20 +847,6 @@ Utilize the pruning strategies to reduce time complexity.
 
 \end{itemize}
 
-%%==========================================================================================
-\begin{note}
-In conclusion,
-we firstly formalized the problem of
-group outlying aspects mining,
-
-Then proposed a novel method GOAM algorithm to address the problem of
-group outlying aspects mining,
-and the proposed method use pruning to reduce time complexity
-while identifying the suitable set of outlying features for the interested group.
-
-Thank you and any question?
-\end{note}
-%%==========================================================================================
 
 \end{slide}
 %%

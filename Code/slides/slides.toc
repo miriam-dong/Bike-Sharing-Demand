@@ -8,10 +8,9 @@
 \pdcontentsline{0}{16}{Weather characteristics analysis}
 \pdcontentsline{1}{17}{Feature selection}
 \pdcontentsline{0}{18}{Correlation analysis}
-\pdcontentsline{0}{20}{ Weather characteristics analysis}
-\pdcontentsline{0}{21}{Step Two - Outlying Degree Scoring}
-\pdcontentsline{0}{23}{Step Three - Outlying Aspects Identification}
-\pdcontentsline{1}{28}{Evaluation Results}
-\pdcontentsline{0}{30}{Synthetic Dataset}
-\pdcontentsline{0}{32}{NBA Dataset}
-\pdcontentsline{1}{36}{Conclusion}
+\pdcontentsline{1}{20}{Modelling and evaluation}
+\pdcontentsline{0}{21}{Modelling}
+\pdcontentsline{1}{22}{Evaluation Results}
+\pdcontentsline{0}{24}{Synthetic Dataset}
+\pdcontentsline{0}{26}{NBA Dataset}
+\pdcontentsline{1}{30}{Conclusion}
