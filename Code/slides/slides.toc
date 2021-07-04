@@ -5,12 +5,13 @@
 \pdcontentsline{0}{7}{Check for outliers}
 \pdcontentsline{1}{12}{Data visualization}
 \pdcontentsline{0}{13}{Time characteristic analysis}
-\pdcontentsline{0}{14}{Time characteristic analysis}
-\pdcontentsline{0}{15}{Time characteristic analysis}
-\pdcontentsline{0}{16}{Step One - Group Feature Extraction}
-\pdcontentsline{0}{17}{Step Two - Outlying Degree Scoring}
-\pdcontentsline{0}{19}{Step Three - Outlying Aspects Identification}
-\pdcontentsline{1}{24}{Evaluation Results}
-\pdcontentsline{0}{26}{Synthetic Dataset}
-\pdcontentsline{0}{28}{NBA Dataset}
-\pdcontentsline{1}{32}{Conclusion}
+\pdcontentsline{0}{16}{Weather characteristics analysis}
+\pdcontentsline{1}{17}{Feature selection}
+\pdcontentsline{0}{18}{Correlation analysis}
+\pdcontentsline{0}{20}{ Weather characteristics analysis}
+\pdcontentsline{0}{21}{Step Two - Outlying Degree Scoring}
+\pdcontentsline{0}{23}{Step Three - Outlying Aspects Identification}
+\pdcontentsline{1}{28}{Evaluation Results}
+\pdcontentsline{0}{30}{Synthetic Dataset}
+\pdcontentsline{0}{32}{NBA Dataset}
+\pdcontentsline{1}{36}{Conclusion}

@@ -370,7 +370,7 @@ there are two peaks in the graph, one is from 7-8 in the morning,
 the other is from 5-6 in the afternoon, which is the morning peak 
 and the evening peak respectively, which is in line with the actual situation. 
 \end{itemize} 
-
+\vspace{-0.8cm} 
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
@@ -396,12 +396,12 @@ evening after work time, include the reason of eating out at the same time,
  for the weekend, time is more focused, basic usage around 11 PM to 5 PM, 
  This time is supposed to be everyone's leisure time.
 \end{itemize} 
-  
+\vspace{-1cm}  
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
 %  \missingfigure{Testing a long text string.}
-  \includegraphics[width=0.6\textwidth]{figures//time_trends_weekday.eps}\\
+  \includegraphics[width=0.7\textwidth]{figures//time_trends_weekday.eps}\\
   \caption{Rental amount at different times of the non-working days and the non-working days} \label{framework}
 \end{figure}
   
@@ -432,11 +432,77 @@ probably due to the lower temperature.
 \end{slide}
 %%
 %%==========================================================================================
-   
+
 %%==========================================================================================
 %%
-\begin{slide}{Step One - Group Feature Extraction}
-%Step One - Group Feature Extraction}
+\begin{slide}{Weather characteristics analysis}
+  \begin{itemize}
+    \item
+    Temperatures below 10 degrees, above 30 degrees, and fewer bike rentals -- too cold or too hot will damper rental demand. 
+    \item
+    The higher the wind, the fewer bike renters - high winds dampen rental demand.
+    \item
+    The higher the humidity in the air, the fewer people who hire bikes - it's more comfortable to ride on dry days.
+    \end{itemize}
+  \vspace{-1.5cm}
+  \begin{figure}
+    \centering
+    \selectcolormodel{rgb}
+    %  \missingfigure{Testing a long text string.}
+    \includegraphics[width=1\textwidth]{figures//weather.eps}\\
+    \caption{The effect of weather on rental amount} \label{framework}
+  \end{figure}
+      
+      
+  \end{slide}
+%%
+%%==========================================================================================
+\section{Feature selection}
+
+
+%%==========================================================================================
+%%
+\begin{slide}{Correlation analysis}
+  \vspace{-1.5cm}
+  \begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+%  \missingfigure{Testing a long text string.}
+  \includegraphics[width=0.8\textwidth]{figures//cor.eps}\\
+  \caption{Correlation analysis} \label{framework}
+\end{figure}
+
+
+\end{slide}
+%%
+%%==========================================================================================
+%%==========================================================================================
+%%
+\begin{slide}[toc=,bm=]{Correlation analysis}
+  \begin{itemize}
+    \item
+    The influence of characteristics on count is as follows: 
+    hour>temp>atemp>humidity>month>season>year>weather>windspeed
+    >workingday>weekday>day>(holiday)
+    \end{itemize}
+
+  \begin{figure}
+    \centering
+    \selectcolormodel{rgb}
+  %  \missingfigure{Testing a long text string.}
+    \includegraphics[width=0.8\textwidth]{figures//cor_rank.eps}\\
+    \caption{Correlation rank} \label{framework}
+  \end{figure}
+  
+  
+  \end{slide}
+  %%
+  %%==========================================================================================
+    
+%%==========================================================================================
+%%
+\begin{slide}{ Weather characteristics analysis}
+
 \begin{itemize}
 \item
 \smallskip
@@ -471,26 +537,6 @@ $f_3$: \{$z_1, z_4, z_2, z_4, z_5, z_3, z_1, z_2, z_4, z_2$\} \\
     \label{fig:fre-dis-each-feature}
 \end{figure}
 
-%%==========================================================================================
-\begin{note}
-Now, let me specifically explain what each step means.
-The first step is group feature extraction.
-we can take one group extraction as an example.
-
-We suppose to use $f_1$, $f_2$, $f_3$ to represent three features of $G_q$.
-The values of $f_1$ are {$x_1$, $x_2$, $x_3$, $x_4$} and so on.
-And the values of $f_2$ are {$y_2$, $y_2$, $y_1$, $x_2$} and so on.
-
-For feature $f_1$,
-we use the histogram to illustrate feature $f_1$ after
-counting the frequency of each value,
-as show in figure 6 (a).
-
-Similarly,
-we can also extract other features of the group
-according to feature $f_1$.
-\end{note}
-%%==========================================================================================
 
 \end{slide}
 %%
