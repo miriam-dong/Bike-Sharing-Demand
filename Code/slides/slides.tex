@@ -222,76 +222,39 @@ In this project, historical usage patterns were combined with weather data to pr
 
 %%==========================================================================================
 %%
-\begin{slide}[toc=,bm=]{Check for missing vaules and outliers}
-
-\begin{itemize}
-\item
-Check for missing vaules
+\begin{slide}{Check for missing vaules }
 
 
 
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{}
-
-\begin{itemize}
-\item
-\smallskip
-Focus on differences between \textcolor{orange}{groups}.
-
-\item
-\smallskip
-\textcolor{orange}{Multiple} points.
-\medskip
-\end{itemize}
+\twocolumn
+{
 \vspace{0.75cm}
 %\vspace{0.1cm}
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
-  \missingfigure{Testing a long text string.}
-  %\includegraphics[width=0.6\textwidth]{figures//example-basketball-projection.eps}\\
-  \caption{Group Outlying Aspects Target}\label{fig:GroupOutAspect-target}
+  %\missingfigure{Testing a long text string.}
+  \includegraphics[width=0.6\textwidth]{figures//train_info.eps}\\
+  \caption{Training data information}\label{fig:GroupOutAspect-target}
 \end{figure}
 }
 {
-Outlying Aspects Mining
-\begin{itemize}
-\item
-Concentrates on differences between \textcolor{orange}{objects}.
 
-\item
-\textcolor{orange}{One} point.
-\end{itemize}
+
+
 \bigskip
+\bigskip
+
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
-  \missingfigure{Testing a long text string.}
-%  \includegraphics[width=0.5\textwidth]{figures//OutAspect_target.eps}\\
-  \caption{Outlying Aspects Target}\label{fig:OutAspect-target}
+  %\missingfigure{Testing a long text string.}
+  \includegraphics[width=0.6\textwidth]{figures//test_info.eps}\\
+  \bigskip
+  \caption{Test data information}\label{fig:OutAspect-target}
 \end{figure}
 }
 
-%%==========================================================================================
-\begin{note}
-In this research paper,
-we proposed the group outlying aspects mining.
-Now,
-let me summarize the differences between group outlying aspects mining and outlying aspects mining.
-
-Group outlying aspects mining mainly focuses on the differences between groups.
-But outlying aspects mining mainly concentrates on the differences between objects.
-The target of group outlying aspects mining can be seen as many points.
-While the target of outlying aspects mining can be regarded as one point.
-
-In the NBA example,
-group outlying aspects mining focuses on the advantages
-or disadvantages of one team,
-however,
-outlying aspects mining focuses on the advantages or disadvantages of one player.
-\end{note}
-%%==========================================================================================
 
 \end{slide}
 %%
@@ -300,155 +263,176 @@ outlying aspects mining focuses on the advantages or disadvantages of one player
 
 %%==========================================================================================
 %%
-\begin{slide}{Challenges (1)}
-%Challenges (1)
-\begin{itemize}
-\item
-How to \textcolor{orange}{represent} the group features.
+\begin{slide}{Check for outliers}
 
 \begin{itemize}
 \item
-Can be affected by outlier values.
-
-\item
-Can \textcolor{orange}{Not} reflect the overall distribution of group features.
+Statistical description
 \end{itemize}
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-Based on current existing methods,
-there still remains some research challenges.
-
-The first one is how to represent the group features
-based on the features of the individuals in the group.
-
-Although the arithmetic mean of all elements
-in each feature can describe the features of one group.
-It can be affected by outlier values,
-and can't reflect the entire distribution of group features.L
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Challenges (2)}
-
-\begin{itemize}
-\item
-How to \textcolor{orange}{evaluate} the outlying degree in different aspects.
-
-\begin{itemize}
-\item
-Need design a scoring function when necessary.
-
-\item
-Adopting an appropriate scoring function (without dimension bias) remains a problem.
-
-\end{itemize}
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-The second challenge is how to evaluate the outlying degree of
-the query group between different aspects.
-
-In that case,
-we need to design a scoring function to measure the outlying degree.
-But adopting an appropriate scoring function without dimension bias still remains a problem.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{Challenges (3)}
-
-\begin{itemize}
-\item
-How to \textcolor{orange}{improve} the efficiency.
-
-\begin{itemize}
-
-\item
-When the dimension of the \textcolor{orange}{data is high},
-the candidate subspace grows exponentially.
-
-\item
-It will easily go beyond the limits of the computation resources.
-
-\end{itemize}
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-The third challenge is how to improve efficiency.
-
-To be specific,
-when the dimension of data is high,
-the candidate subspace increase dramatically,
-so that it is very easy to exceed the limit of computer resources.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
-
-
-\section{GOAM Algorithm}
-
-
-%%==========================================================================================
-%%
-\begin{slide}[toc=,bm=]{}
-
-Framework of GOAM algorithm:
-
-\bigskip
 
 \begin{figure}
   \centering
   \selectcolormodel{rgb}
-  \missingfigure{Testing a long text string.}
-%  \includegraphics[width=0.55\textwidth]{figures//framework1.eps}\\
-  \caption{Framework of GOAM Algorithm} \label{framework}
+  %\missingfigure{Testing a long text string.}
+  \includegraphics[width=0.6\textwidth]{figures//description.eps}\\
+  \bigskip
+  \caption{Data description}\label{fig:OutAspect-target}
 \end{figure}
 
-%%==========================================================================================
-\begin{note}
-In order to tackle the above issues,
-GOAM algorithm is involved.
-
-Let's have a look at the framework of this algorithm.
-The first step is to use the histogram to represent the group features
-based on all individuals in the group.
-
-Following that,
-we utilize the earth mover distances to measure the
-outlying degree between groups.
-This is the second step:
-outlying degree scoring.
-
-The last step is to identify the outlying aspects.
-
-\end{note}
-%%==========================================================================================
 
 \end{slide}
 %%
 %%==========================================================================================
 
 
+%%==========================================================================================
+%%
+\begin{slide}[toc=,bm=]{Check for outliers}
+
+
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+  %\missingfigure{Testing a long text string.}
+  \includegraphics[width=0.6\textwidth]{figures//Count_distribution.eps}\\
+  \caption{The distribution of the label "count"}\label{fig:OutAspect-target}
+\end{figure}
+
+
+\end{slide}
+%%
+%%==========================================================================================
+
+
+%%==========================================================================================
+%%
+\begin{slide}[toc=,bm=]{Check for outliers}
+
+
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+  %\missingfigure{Testing a long text string.}
+  \includegraphics[width=1\textwidth]{figures//Count_distribution_compare.eps}\\
+  \caption{Count distribution compare}\label{fig:OutAspect-target}
+\end{figure}
+  
+  
+
+
+\end{slide}
+%%
+%%==========================================================================================
+%%==========================================================================================
+%%
+\begin{slide}[toc=,bm=]{Check for outliers}
+\vspace{-0.8cm}
+\begin{figure}
+\centering
+\selectcolormodel{rgb}
+%\missingfigure{Testing a long text string.}
+\includegraphics[width=0.6\textwidth]{figures//Features_distribution_analysis.eps}\\
+\caption{Main features distribution}\label{fig:OutAspect-target}
+\end{figure}
+      
+\end{slide}
+%%
+%%==========================================================================================
+  
+%%==========================================================================================
+%%
+\begin{slide}[toc=,bm=]{Check for outliers}
+
+ 
+  
+\vspace{-0.8cm}
+\begin{figure}
+\centering
+\selectcolormodel{rgb}
+\includegraphics[width=0.5\textwidth]{figures//After_features_distribution_analysis.eps}\\
+\caption{Main features distribution}\label{fig:OutAspect-target}
+\end{figure}
+        
+\end{slide}
+%%
+%%==========================================================================================
+   
+\section{Data visualization}
+
+
+%%==========================================================================================
+%%
+\begin{slide}{Time characteristic analysis}
+
+\begin{itemize}
+\item
+there are two peaks in the graph, one is from 7-8 in the morning, 
+the other is from 5-6 in the afternoon, which is the morning peak 
+and the evening peak respectively, which is in line with the actual situation. 
+\end{itemize} 
+
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+%  \missingfigure{Testing a long text string.}
+  \includegraphics[width=0.6\textwidth]{figures//Time_trends_day.eps}\\
+  \caption{The amount rented at different times of the day} \label{framework}
+\end{figure}
+
+
+\end{slide}
+%%
+%%==========================================================================================
+
+%%==========================================================================================
+%%
+\begin{slide}[toc=,bm=]{Time characteristic analysis}
+
+\begin{itemize}
+\item
+from Monday to Friday, 8 in the morning of the day - 9 am and 5 to 7 PM, 
+usage is more, may be caused by time going to work in the morning and 
+evening after work time, include the reason of eating out at the same time,
+ for the weekend, time is more focused, basic usage around 11 PM to 5 PM, 
+ This time is supposed to be everyone's leisure time.
+\end{itemize} 
+  
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+%  \missingfigure{Testing a long text string.}
+  \includegraphics[width=0.6\textwidth]{figures//time_trends_weekday.eps}\\
+  \caption{Rental amount at different times of the non-working days and the non-working days} \label{framework}
+\end{figure}
+  
+  
+\end{slide}
+%%
+%%==========================================================================================
+
+%%==========================================================================================
+%%
+\begin{slide}[toc=,bm=]{Time characteristic analysis}
+
+\begin{itemize}
+\item
+The usage is obviously lower in spring,
+probably due to the lower temperature. 
+\end{itemize} 
+    
+\begin{figure}
+  \centering
+  \selectcolormodel{rgb}
+  %  \missingfigure{Testing a long text string.}
+  \includegraphics[width=0.6\textwidth]{figures//season.eps}\\
+  \caption{Seasonal comparison of the number of rental bike per hour} \label{framework}
+\end{figure}
+    
+    
+\end{slide}
+%%
+%%==========================================================================================
+   
 %%==========================================================================================
 %%
 \begin{slide}{Step One - Group Feature Extraction}

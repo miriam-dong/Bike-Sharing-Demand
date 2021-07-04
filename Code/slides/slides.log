@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  5 JUL 2021 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  5 JUL 2021 03:17
 entering extended mode
 **./slides.tex
 (slides.tex
@@ -1973,8 +1973,26 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \pixel=\skip102
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 175.
+ (slides.aux
 
-No file slides.aux.
+LaTeX Warning: Label `fig:OutAspect-target' multiply defined.
+
+
+LaTeX Warning: Label `fig:OutAspect-target' multiply defined.
+
+
+LaTeX Warning: Label `fig:OutAspect-target' multiply defined.
+
+
+LaTeX Warning: Label `fig:OutAspect-target' multiply defined.
+
+
+LaTeX Warning: Label `fig:OutAspect-target' multiply defined.
+
+
+LaTeX Warning: Label `framework' multiply defined.
+
+)
 \openout1 = `slides.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
@@ -1998,7 +2016,7 @@ LaTeX Font Info:    ... okay on input line 175.
 LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 175.
 LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
  175.
-(D:\Program Files\MiKTeX\tex/latex/fouriernc\fmlfncmi.fd
+ (D:\Program Files\MiKTeX\tex/latex/fouriernc\fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
 LaTeX Font Info:    ... okay on input line 175.
@@ -2069,12 +2087,10 @@ LaTeX Info: Redefining \ref on input line 175.
 LaTeX Info: Redefining \pageref on input line 175.
 LaTeX Info: Redefining \nameref on input line 175.
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 (slides.bm) (slides.bm)
 \openout3 = `slides.bm'.
 
+ (slides.toc)
 \openout4 = `slides.toc'.
 
 Package caption Info: Begin \AtBeginDocument code.
@@ -2152,1460 +2168,350 @@ Missing character: There is no  in font fourier-mex!
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 11.15991pt on input line 178.
  [2]
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 188.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 7.43994pt on input line 188.
-
-
-LaTeX Warning: Reference `lastslide' on page 3 undefined on input line 188.
-
-[3]
+(Font)              scaled to size 13.39188pt on input line 188.
+ [3]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 19.28804pt on input line 192.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 19.28804pt on input line 192.
-
-
-LaTeX Warning: Reference `lastslide' on page 4 undefined on input line 192.
-
-[4]
-
-LaTeX Warning: Reference `lastslide' on page 5 undefined on input line 212.
-
-[5]
-
-LaTeX Warning: Reference `lastslide' on page 6 undefined on input line 219.
-
+ [4] [5]
 [6]
-
-LaTeX Warning: Reference `lastslide' on page 7 undefined on input line 255.
-
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train
-_info.eps' not found on input line 255.
-
-
-slides.tex:255: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/train_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:255: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/train_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps Graph
-ic file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps>
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_
-info.eps' not found on input line 255.
-
-
-slides.tex:255: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/test_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:255: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/test_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps Graphi
-c file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps>
+File: figures//train_info.eps Graphic file (type eps)
+ <figures//train_info.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 255.
+(caption)                particular \caption on input line 259.
 See the caption package documentation for explanation.
 
+File: figures//test_info.eps Graphic file (type eps)
+<figures//test_info.eps>
 
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 255--255
-[][] 
- []
-
-slides.tex:255: Extra }, or forgotten \endgroup.
-\endpd@minipage ...efalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.255 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-slides.tex:255: Extra }, or forgotten \endgroup.
-\pst@makenotverbbox ...m \pst@mathflag >\z@ $\fi }
-                                                  #1
-l.255 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-slides.tex:255: LaTeX Error: \begin{pd@minipage} on input line 255 ended by \en
-d{slide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 \end{slide}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-slides.tex:330: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.330 \end{slide}
-                 
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-slides.tex:330: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.330 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:330: Missing } inserted.
-<inserted text> 
-                }
-l.330 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:330: Missing } inserted.
-<inserted text> 
-                }
-l.330 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 259.
+See the caption package documentation for explanation.
 
 [7]
-
-LaTeX Warning: Reference `lastslide' on page 8 undefined on input line 330.
-
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train
-_info.eps' not found on input line 330.
-
-
-slides.tex:330: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/train_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:330: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/train_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps Graph
-ic file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps>
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_
-info.eps' not found on input line 330.
-
-
-slides.tex:330: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/test_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:330: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/test_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps Graphi
-c file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps>
+File: figures//description.eps Graphic file (type eps)
+ <figures//description.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 330.
+(caption)                particular \caption on input line 283.
 See the caption package documentation for explanation.
-
-
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 330--330
-[][] 
- []
-
-slides.tex:330: Extra }, or forgotten \endgroup.
-\endpd@minipage ...efalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.330 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-slides.tex:330: Extra }, or forgotten \endgroup.
-\pst@makenotverbbox ...m \pst@mathflag >\z@ $\fi }
-                                                  #1
-l.330 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-slides.tex:330: LaTeX Error: \begin{pd@minipage} on input line 330 ended by \en
-d{slide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 \end{slide}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-slides.tex:400: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.400 \end{slide}
-                 
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-slides.tex:400: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.400 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:400: Missing } inserted.
-<inserted text> 
-                }
-l.400 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:400: Missing } inserted.
-<inserted text> 
-                }
-l.400 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 [8]
-
-LaTeX Warning: Reference `lastslide' on page 9 undefined on input line 400.
-
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train
-_info.eps' not found on input line 400.
-
-
-slides.tex:400: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/train_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:400: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/train_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps Graph
-ic file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps>
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_
-info.eps' not found on input line 400.
-
-
-slides.tex:400: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/test_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:400: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/test_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps Graphi
-c file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps>
+File: figures//Count_distribution.eps Graphic file (type eps)
+ <figures//Count_distribution.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 400.
+(caption)                particular \caption on input line 302.
 See the caption package documentation for explanation.
-
-
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 400--400
-[][] 
- []
-
-slides.tex:400: Extra }, or forgotten \endgroup.
-\endpd@minipage ...efalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.400 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-slides.tex:400: Extra }, or forgotten \endgroup.
-\pst@makenotverbbox ...m \pst@mathflag >\z@ $\fi }
-                                                  #1
-l.400 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-slides.tex:400: LaTeX Error: \begin{pd@minipage} on input line 400 ended by \en
-d{slide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 \end{slide}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-slides.tex:437: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.437 \end{slide}
-                 
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-slides.tex:437: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.437 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:437: Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:437: Missing } inserted.
-<inserted text> 
-                }
-l.437 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 [9]
-
-LaTeX Warning: Reference `lastslide' on page 10 undefined on input line 437.
-
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train
-_info.eps' not found on input line 437.
-
-
-slides.tex:437: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/train_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:437: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/train_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps Graph
-ic file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps>
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_
-info.eps' not found on input line 437.
-
-
-slides.tex:437: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/test_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:437: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/test_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps Graphi
-c file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps>
+File: figures//Count_distribution_compare.eps Graphic file (type eps)
+ <figures//Count_distribution_compare.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 437.
+(caption)                particular \caption on input line 323.
 See the caption package documentation for explanation.
-
-
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 437--437
-[][] 
- []
-
-slides.tex:437: Extra }, or forgotten \endgroup.
-\endpd@minipage ...efalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.437 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-slides.tex:437: Extra }, or forgotten \endgroup.
-\pst@makenotverbbox ...m \pst@mathflag >\z@ $\fi }
-                                                  #1
-l.437 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-slides.tex:437: LaTeX Error: \begin{pd@minipage} on input line 437 ended by \en
-d{slide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \end{slide}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-slides.tex:471: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.471 \end{slide}
-                 
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-slides.tex:471: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.471 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:471: Missing } inserted.
-<inserted text> 
-                }
-l.471 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:471: Missing } inserted.
-<inserted text> 
-                }
-l.471 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 [10]
-
-LaTeX Warning: Reference `lastslide' on page 11 undefined on input line 471.
-
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train
-_info.eps' not found on input line 471.
-
-
-slides.tex:471: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/train_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.471 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:471: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/train_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.471 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps Graph
-ic file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps>
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_
-info.eps' not found on input line 471.
-
-
-slides.tex:471: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/test_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.471 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:471: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/test_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.471 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps Graphi
-c file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps>
+File: figures//Features_distribution_analysis.eps Graphic file (type eps)
+ <figures//Features_distribution_analysis.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 471.
+(caption)                particular \caption on input line 338.
 See the caption package documentation for explanation.
-
-
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 471--471
-[][] 
- []
-
-slides.tex:471: Extra }, or forgotten \endgroup.
-\endpd@minipage ...efalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.471 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-slides.tex:471: Extra }, or forgotten \endgroup.
-\pst@makenotverbbox ...m \pst@mathflag >\z@ $\fi }
-                                                  #1
-l.471 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-slides.tex:471: LaTeX Error: \begin{pd@minipage} on input line 471 ended by \en
-d{slide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.471 \end{slide}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-slides.tex:507: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.507 \end{slide}
-                 
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-slides.tex:507: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.507 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:507: Missing } inserted.
-<inserted text> 
-                }
-l.507 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:507: Missing } inserted.
-<inserted text> 
-                }
-l.507 \end{slide}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 [11]
+File: figures//After_features_distribution_analysis.eps Graphic file (type eps)
 
-LaTeX Warning: Reference `lastslide' on page 12 undefined on input line 507.
-
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train
-_info.eps' not found on input line 507.
-
-
-slides.tex:507: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/train_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.507 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:507: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/train_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.507 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps Graph
-ic file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps>
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_
-info.eps' not found on input line 507.
-
-
-slides.tex:507: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/test_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.507 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:507: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/test_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.507 \end{slide}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps Graphi
-c file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps>
+ <figures//After_features_distribution_analysis.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 507.
+(caption)                particular \caption on input line 356.
 See the caption package documentation for explanation.
 
-
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 507--507
-[][] 
- []
-
-slides.tex:507: Extra }, or forgotten \endgroup.
-\endpd@minipage ...efalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.507 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-slides.tex:507: Extra }, or forgotten \endgroup.
-\pst@makenotverbbox ...m \pst@mathflag >\z@ $\fi }
-                                                  #1
-l.507 \end{slide}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-slides.tex:507: LaTeX Error: \begin{pd@minipage} on input line 507 ended by \en
-d{slide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.507 \end{slide}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-slides.tex:512: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.512 \section{GOAM Algorithm}
-                              
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-slides.tex:512: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.512 \section{GOAM Algorithm}
-                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:512: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.512 \section{GOAM Algorithm}
-                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:512: Missing } inserted.
-<inserted text> 
-                }
-l.512 \section{GOAM Algorithm}
-                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:512: Missing } inserted.
-<inserted text> 
-                }
-l.512 \section{GOAM Algorithm}
-                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[12]
-
-LaTeX Warning: Reference `lastslide' on page 13 undefined on input line 512.
-
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train
-_info.eps' not found on input line 512.
-
-
-slides.tex:512: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/train_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 \section{GOAM Algorithm}
-                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:512: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/train_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 \section{GOAM Algorithm}
-                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps Graph
-ic file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/train_info.eps>
-
-LaTeX Warning: File `D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_
-info.eps' not found on input line 512.
-
-
-slides.tex:512: LaTeX Error: File `D:/Users/huawei/Documents/GitHub/FLIP00/proj
-ect_code/test_info.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 \section{GOAM Algorithm}
-                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-slides.tex:512: LaTeX Error: Cannot determine size of graphic in D:/Users/huawe
-i/Documents/GitHub/FLIP00/project_code/test_info.eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 \section{GOAM Algorithm}
-                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps Graphi
-c file (type eps)
-<D:/Users/huawei/Documents/GitHub/FLIP00/project_code/test_info.eps>
+[12] [13]
+File: figures//Time_trends_day.eps Graphic file (type eps)
+ <figures//Time_trends_day.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 512.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 512--512
-[][] 
- []
-
-slides.tex:512: Extra }, or forgotten \endgroup.
-\endpd@minipage ...efalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.512 \section{GOAM Algorithm}
-                              
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-slides.tex:512: Extra }, or forgotten \endgroup.
-\pst@makenotverbbox ...m \pst@mathflag >\z@ $\fi }
-                                                  #1
-l.512 \section{GOAM Algorithm}
-                              
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-slides.tex:512: LaTeX Error: \begin{pd@minipage} on input line 512 ended by \en
-d{sectionslide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 \section{GOAM Algorithm}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-slides.tex:512: Missing } inserted.
-<inserted text> 
-                }
-l.512 \section{GOAM Algorithm}
-                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-slides.tex:512: Missing } inserted.
-<inserted text> 
-                }
-l.512 \section{GOAM Algorithm}
-                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[13]
-
-LaTeX Warning: Reference `lastslide' on page 14 undefined on input line 551.
-
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 551.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 551.
+(caption)                particular \caption on input line 383.
 See the caption package documentation for explanation.
 
 [14]
-
-LaTeX Warning: Reference `lastslide' on page 15 undefined on input line 615.
-
-
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 615--615
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 615.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 615.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 615.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 615.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 615.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 615.
-Missing character: There is no  in font fourier-mex!
-
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 615--615
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
-
-Overfull \hbox (31.3592pt too wide) in paragraph at lines 615--615
-[][]\T1/fnc/m/n/14.4 14ptTest.  
- []
-
+File: figures//time_trends_weekday.eps Graphic file (type eps)
+ <figures//time_trends_weekday.eps>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 615.
+(caption)                particular \caption on input line 409.
 See the caption package documentation for explanation.
 
-Missing character: There is no  in font fourier-mex!
 [15]
+File: figures//season.eps Graphic file (type eps)
+ <figures//season.eps>
 
-LaTeX Warning: Reference `lastslide' on page 16 undefined on input line 660.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 433.
+See the caption package documentation for explanation.
+
+[16]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 496.
+
+Overfull \hbox (31.3592pt too wide) in paragraph at lines 496--496
+[][]\T1/fnc/m/n/14.4 14ptTest.  
+ []
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.06795pt on input line 496.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 496.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 496.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 496.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 496.
+Missing character: There is no  in font fourier-mex!
+
+Overfull \hbox (31.3592pt too wide) in paragraph at lines 496--496
+[][]\T1/fnc/m/n/14.4 14ptTest.  
+ []
+
+
+Overfull \hbox (31.3592pt too wide) in paragraph at lines 496--496
+[][]\T1/fnc/m/n/14.4 14ptTest.  
+ []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 660.
+(caption)                particular \caption on input line 496.
+See the caption package documentation for explanation.
+
+Missing character: There is no  in font fourier-mex!
+[17]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 541.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (21.00186pt too wide) in paragraph at lines 660--660
+Overfull \hbox (21.00186pt too wide) in paragraph at lines 541--541
 [][] 
  []
 
-[16]
-
-LaTeX Warning: Reference `lastslide' on page 17 undefined on input line 702.
-
-[17]
-
-LaTeX Warning: Reference `lastslide' on page 18 undefined on input line 734.
-
-[18]
-
-LaTeX Warning: Reference `lastslide' on page 19 undefined on input line 770.
-
-[19]
-
-LaTeX Warning: Reference `lastslide' on page 20 undefined on input line 817.
-
+[18] [19] [20] [21]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 817.
+(caption)                particular \caption on input line 698.
 See the caption package documentation for explanation.
-
-[20]
-
-LaTeX Warning: Reference `lastslide' on page 21 undefined on input line 884.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 884.
-See the caption package documentation for explanation.
-
-[21]
-
-LaTeX Warning: Reference `lastslide' on page 22 undefined on input line 933.
 
 [22]
 
-LaTeX Warning: Reference `lastslide' on page 23 undefined on input line 938.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 765.
+See the caption package documentation for explanation.
 
-[23]
-
-LaTeX Warning: Reference `lastslide' on page 24 undefined on input line 972.
-
+[23] [24] [25]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 972.
+(Font)              scaled to size 8.36993pt on input line 853.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 972.
+(Font)              scaled to size 15.89755pt on input line 853.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 972.
+(Font)              scaled to size 11.03998pt on input line 853.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 972.
+(Font)              scaled to size 8.27998pt on input line 853.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 972.
+(Font)              scaled to size 15.89755pt on input line 853.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 972.
+(Font)              scaled to size 11.03998pt on input line 853.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 972.
+(Font)              scaled to size 8.27998pt on input line 853.
 Missing character: There is no  in font fourier-mex!
-[24]
+ [26]
 Missing character: There is no  in font fourier-mex!
-
-
-LaTeX Warning: Reference `lastslide' on page 25 undefined on input line 1026.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1026.
+(caption)                particular \caption on input line 907.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 1026.
+(Font)              scaled to size 9.29993pt on input line 907.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 1026.
-[25]
-
-LaTeX Warning: Reference `lastslide' on page 26 undefined on input line 1071.
-
+(Font)              scaled to size 7.43994pt on input line 907.
+[27]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1071.
+(caption)                particular \caption on input line 952.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (4.66704pt too wide) in paragraph at lines 1071--1071
+Overfull \hbox (4.66704pt too wide) in paragraph at lines 952--952
  [][] 
- []
-
-[26]
-
-LaTeX Warning: Reference `lastslide' on page 27 undefined on input line 1111.
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1111.
-
-LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 13.39188pt on input line 1111.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-111.
-(D:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [27]
-
-LaTeX Warning: Reference `lastslide' on page 28 undefined on input line 1151.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1151.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (3.4126pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 FGA| 
- []
-
-
-Overfull \hbox (4.8991pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 FG%| 
- []
-
-
-Overfull \hbox (10.85841pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 3PT%| 
- []
-
-
-Overfull \hbox (1.68515pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 FTA| 
- []
-
-
-Overfull \hbox (3.41261pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 FT%| 
- []
-
-
-Overfull \hbox (7.89871pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 14.07| 
- []
-
-
-Overfull \hbox (7.89871pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 10.59| 
- []
-
-
-Overfull \hbox (7.89871pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 10.93| 
- []
-
-
-Overfull \hbox (7.89871pt too wide) in paragraph at lines 1151--1151
-[]|\T1/fnc/m/n/14.4 10.39| 
  []
 
 [28]
 
-LaTeX Warning: Reference `lastslide' on page 29 undefined on input line 1201.
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 992.
 
+LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
+(Font)              scaled to size 13.39188pt on input line 992.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+92.
+(D:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [29]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1201.
+(caption)                particular \caption on input line 1032.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (7.85661pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (3.4126pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 FGA| 
+ []
+
+
+Overfull \hbox (4.8991pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 FG%| 
+ []
+
+
+Overfull \hbox (10.85841pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 3PT%| 
+ []
+
+
+Overfull \hbox (1.68515pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 FTA| 
+ []
+
+
+Overfull \hbox (3.41261pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 FT%| 
+ []
+
+
+Overfull \hbox (7.89871pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 14.07| 
+ []
+
+
+Overfull \hbox (7.89871pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 10.59| 
+ []
+
+
+Overfull \hbox (7.89871pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 10.93| 
+ []
+
+
+Overfull \hbox (7.89871pt too wide) in paragraph at lines 1032--1032
+[]|\T1/fnc/m/n/14.4 10.39| 
+ []
+
+[30]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1082.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (7.85661pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (0.35,0.45]| 
  []
 
 
-Overfull \hbox (6.10127pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (6.10127pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (0.3,0.35]| 
  []
 
 
-Overfull \hbox (1.67804pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (1.67804pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (3.5,$+\FMS/fncm/m/n/14.4 1$\T1/fnc/m/n/14.4 ]| 
  []
 
 
-Overfull \hbox (1.67804pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (1.67804pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (2.5,$+\FMS/fncm/m/n/14.4 1$\T1/fnc/m/n/14.4 ]| 
  []
 
 
-Overfull \hbox (6.10127pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (6.10127pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (0.25,0.5]| 
  []
 
 
-Overfull \hbox (7.85661pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (7.85661pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (0.65,0.75]| 
  []
 
 
-Overfull \hbox (6.10127pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (6.10127pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (0.6,0.75]| 
  []
 
 
-Overfull \hbox (1.67804pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (1.67804pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (1.7,$+\FMS/fncm/m/n/14.4 1$\T1/fnc/m/n/14.4 ]| 
  []
 
 
-Overfull \hbox (9.12384pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (9.12384pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (0.75,$+\FMS/fncm/m/n/14.4 1$\T1/fnc/m/n/14.4 ]| 
  []
 
 
-Overfull \hbox (1.67804pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (1.67804pt too wide) in paragraph at lines 1082--1082
 []|\T1/fnc/m/n/14.4 (0.7,$+\FMS/fncm/m/n/14.4 1$\T1/fnc/m/n/14.4 ]| 
  []
 
-[29]
-
-LaTeX Warning: Reference `lastslide' on page 30 undefined on input line 1238.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1238.
-See the caption package documentation for explanation.
-
-[30]
-
-LaTeX Warning: Reference `lastslide' on page 31 undefined on input line 1243.
-
 [31]
 
-LaTeX Warning: Reference `lastslide' on page 32 undefined on input line 1280.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1119.
+See the caption package documentation for explanation.
 
-[32]
-
-LaTeX Warning: Reference `lastslide' on page 33 undefined on input line 1293.
-
+[32] [33] [34]
 File: figures//gif//question//q_1.eps Graphic file (type eps)
-<figures//gif//question//q_1.eps> <a0,fr0>
+ <figures//gif//question//q_1.eps> <a0,fr0>
 File: figures//gif//question//q_2.eps Graphic file (type eps)
- <figures//gif//question//q_2.eps>
-<a0,fr1>
+
+<figures//gif//question//q_2.eps> <a0,fr1>
 File: figures//gif//question//q_3.eps Graphic file (type eps)
- <figures//gif//question//q_3.eps> <a0,fr2>
+ <figures//gif//question//q_3.eps>
+<a0,fr2>
 File: figures//gif//question//q_4.eps Graphic file (type eps)
-
-<figures//gif//question//q_4.eps> <a0,fr3>
+ <figures//gif//question//q_4.eps> <a0,fr3>
 File: figures//gif//question//q_5.eps Graphic file (type eps)
- <figures//gif//question//q_5.eps>
-<a0,fr4>
+
+<figures//gif//question//q_5.eps> <a0,fr4>
 File: figures//gif//question//q_6.eps Graphic file (type eps)
- <figures//gif//question//q_6.eps> <a0,fr5>
+ <figures//gif//question//q_6.eps>
+<a0,fr5>
 File: figures//gif//question//q_7.eps Graphic file (type eps)
-
-<figures//gif//question//q_7.eps> <a0,fr6>
+ <figures//gif//question//q_7.eps> <a0,fr6>
 File: figures//gif//question//q_8.eps Graphic file (type eps)
- <figures//gif//question//q_8.eps>
-<a0,fr7>
-File: figures//gif//question//q_9.eps Graphic file (type eps)
- <figures//gif//question//q_9.eps> <a0,fr8>
-File: figures//gif//question//q_10.eps Graphic file (type eps)
 
-<figures//gif//question//q_10.eps> <a0,fr9>
+<figures//gif//question//q_8.eps> <a0,fr7>
+File: figures//gif//question//q_9.eps Graphic file (type eps)
+ <figures//gif//question//q_9.eps>
+<a0,fr8>
+File: figures//gif//question//q_10.eps Graphic file (type eps)
+ <figures//gif//question//q_10.eps> <a0,fr9>
 File: figures//gif//question//q_11.eps Graphic file (type eps)
- <figures//gif//question//q_11.eps>
-<a0,fr10>
+
+<figures//gif//question//q_11.eps> <a0,fr10>
 File: figures//gif//question//q_12.eps Graphic file (type eps)
- <figures//gif//question//q_12.eps> <a0,fr11>
+
+<figures//gif//question//q_12.eps> <a0,fr11>
 File: figures//gif//question//q_13.eps Graphic file (type eps)
 
 <figures//gif//question//q_13.eps> <a0,fr12>
@@ -3659,60 +2565,39 @@ File: figures//gif//question//q_29.eps Graphic file (type eps)
 <figures//gif//question//q_29.eps> <a0,fr28>
 File: figures//gif//question//q_30.eps Graphic file (type eps)
 
-<figures//gif//question//q_30.eps> <a0,fr29> [33]
-
-LaTeX Warning: Reference `lastslide' on page 34 undefined on input line 1324.
-
+<figures//gif//question//q_30.eps> <a0,fr29> [35]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1324.
+(enumitem)                sense, on input line 1205.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 1324.
+ut line 1205.
 (D:\Program Files\MiKTeX\tex/latex/fontawesome\ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 1324.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 1205.
 
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 13.39188pt on input line 1324.
+(Font)              scaled to size 13.39188pt on input line 1205.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 9.29993pt on input line 1324.
-[34]
-slides.tex:1326: Undefined control sequence.
-\endtrivlist ...ter {pd@trivlist}\m@ne \pd@revert 
-                                                  {\global \expandafter \let...
-l.1326 \end{document}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[35] (slides.aux)
+(Font)              scaled to size 9.29993pt on input line 1205.
+[36] (slides.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 52131 strings out of 478865
- 1126919 string characters out of 2858540
- 1772774 words of memory out of 3000000
- 68979 multiletter control sequences out of 15000+600000
+ 52180 strings out of 478865
+ 1126712 string characters out of 2858540
+ 1784426 words of memory out of 3000000
+ 69027 multiletter control sequences out of 15000+600000
  454011 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,15n,117p,2374b,1046s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on slides.dvi (35 pages, 315892 bytes).
+Output written on slides.dvi (36 pages, 651768 bytes).
