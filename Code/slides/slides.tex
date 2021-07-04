@@ -219,107 +219,21 @@ In this project, historical usage patterns were combined with weather data to pr
 \section{Data exploration}
 
 
-%%==========================================================================================
-%%
-\begin{slide}{Check for missing vaules and outliers}
-%Related Work - Outlying Aspects Mining
-\begin{itemize}
-\item
-Check for missing vaules - \textcolor{orange}{Feature selection}
-
-
-\end{itemize}
-  
-  
-
-  
-
-\end{slide}
-%%
-%%==========================================================================================
-
 
 %%==========================================================================================
 %%
-\begin{slide}[toc=,bm=]{Related Work - Outlying Aspects Mining}
+\begin{slide}[toc=,bm=]{Check for missing vaules and outliers}
 
 \begin{itemize}
 \item
-Existing Methods - \textcolor{orange} {Score-and-search}
+Check for missing vaules
 
-\begin{itemize}
-\item
-Define an outlying score function.
-
-\item
-Search subspaces.
-\end{itemize}
-\bigskip
-\twocolumn[
-\savevalue{lfrheight}=5cm,
-\savevalue{lfrprop}={
-linestyle=solid,framearc=.2,linewidth=1pt},
-rfrheight=\usevalue{lfrheight},
-rfrprop=\usevalue{lfrprop}
-]{
-Disadvantages
-\begin{itemize}
-\item
-\smallskip
-Dimensionality bias.
-
-\item
-\smallskip
-Search efficiency is \textcolor{orange}{Not} high (dataset is large).
-
-\item
-\smallskip
-\textcolor{orange}{Not} identify group outlying aspects.
-\end{itemize}
-}{
-Advantages
-\begin{itemize}
-\item
-\smallskip
-Quantify the outlying degree correctly.
-
-\item
-\smallskip
-High Comprehensibility.
-
-\end{itemize}
-}
-\end{itemize}
-
-%%==========================================================================================
-\begin{note}
-For score-and-search method,
-it defines an outlying score function,
-and then searches for each subspace until it finds out a subspace that
-makes the query point show the best score.
-
-The advantages of this method are:
-first, it enables to quantify the outlying degree accurately.
-Besides, its comprehensibility is high.
-
-While the disadvantages include three main aspects:
-the first one is it has dimensionality bias;
-Additionally, its search efficiency is low.
-Last but not least, it doesn't identify group outlying aspects.
-\end{note}
-%%==========================================================================================
-
-\end{slide}
-%%
-%%==========================================================================================
 
 
 %%==========================================================================================
 %%
 \begin{slide}[toc=,bm=]{}
-\twocolumn
-{
-Group Outlying Aspects Mining
+
 \begin{itemize}
 \item
 \smallskip
