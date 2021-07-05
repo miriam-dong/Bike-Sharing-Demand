@@ -196,7 +196,24 @@ Weather characteristics analysis
 % SECOND column
 \column{0.5}
  %Second column with first block's top edge aligned with with previous column's top.
+%%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
+\block{Data Visualization}
+{
 
+\begin{itemize}
+\item
+Weather characteristics analysis
+\end{itemize}
+\vspace{-0.8cm}
+\begin{tikzfigure}
+\centering
+\selectcolormodel{rgb}
+%  \missingfigure{Testing a long text string.}
+\includegraphics[width=0.4\textwidth]{figures//weather.eps}\\
+%\caption{The effect of weather on rental amount} \label{framework}
+\end{tikzfigure}
+}
+%%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 \block{Feature Selection and Feature Importance}{
 \begin{description}
@@ -206,6 +223,8 @@ hour>temp>atemp>humidity>month>season>year>weather>windspeed
 >workingday>weekday>day>holiday
 \end{description}
 \vspace{-0.8cm}
+\bigskip
+\bigskip
 \begin{tikzfigure}
 \centering
 \selectcolormodel{rgb}
@@ -213,83 +232,46 @@ hour>temp>atemp>humidity>month>season>year>weather>windspeed
 \includegraphics[width=0.4\textwidth]{figures//cor_rank.eps}\\
 \caption{Correlation rank} \label{framework}
 \end{tikzfigure}
-
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 % Second column - first block
 
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-\block[titleleft]{Experiment}
+\block[titleleft]{Modeling and Result}
 {
 \begin{description}
-  	\item[Synthetic Dataset] contains $10$ groups and $8$ features.
-    Each group consists of $10$ members,
-    and each member has $8$ features.
+  	\item[Model:] RandomForestRegressor
+    
 \end{description}
 \vspace{.5cm}
-\begin{tabular}{ c | c | c | c }
+\begin{tabular}{ c | c | c  }
     \toprule
-    Method     &  Truth Outlying Aspects    & Identified Aspects & Accuracy      \\
+    Result     &  The initial model    & After cross validation       \\
     \midrule
-    GOAM       &  $\{F_1\}$, $\{F_2F_4\}$   &  $\{F_1\}$, $\{F_2F_4\}$    & 100\%    \\
+    Accuracy       &  0.9338   &  $\{F_1\}$, $\{F_2F_4\}$       \\
 
-     Arithmetic Mean based OAM &  $\{F_1\}$, $\{F_2F_4\}$   &  $\{F_4\}$, $\{F_2\}$    &  0\% \\
+    MSLE      &  0.0152   &  $\{F_4\}$, $\{F_2\}$     \\
 
-     Median based OAM &  $\{F_1\}$, $\{F_2F_4\}$   &  $\{F_2\}$, $\{F_4\}$    &           0\% \\
+     
      \bottomrule
 \end{tabular}
-\vspace{.2cm}
-\begin{description}
-    \item
-    It can be observed that the GOAM method can identify the trivial outlying features
-    and non-trivial outlying subspaces correctly and is obvious from the table
-    that the accuracy of GOAM is the best, which is ($100\%$).
-\end{description}
-
-\begin{description}
-\item[NBA Dataset] was collected from Yahoo Sports
-website (\url{http://sports.yahoo.com.cn/nba}).
-The data include all teams from the six divisions,
-and each player in the team has $12$ features.
-\end{description}
-\vspace{.5cm}
-\begin{tabular}{ c | c | c }
-    \toprule
-    Teams                   & Trivial Outlying Aspects  & NonTrivial Outlying Aspects    \\
-    \toprule
-    Cleveland Cavaliers     & \{3FA\}                   & \{FGA, FT\%\}, \{FGA, FG\%\} \\
-    Orlando Magic           & \{Stl\}                   & None                         \\
-    Milwaukee Bucks         & \{To\}, \{FTA\}           & \{FGA, FTA\}, \{3FA, FTA\}     \\
-%    Golden State Warriors   & \{FG\%\}                  & \{FT\%, Blk\}, \{FGA, 3PT\%, FTA\}\\
-%    Utah Jazz               & \{Blk\}                   & \{3FA, 3PT\%\}                    \\
-    New Orleans Pelicans    & \{FT\%\}, \{FTA\}         & \{FTA, Stl\}, \{FTA, To\}          \\
-    \bottomrule
-\end{tabular}
-           
-\begin{minipage}{0.5\linewidth}
-    \centering
-    \begin{tikzfigure}
-    \missingfigure[figcolor=white]{Testing figcolor}
-
-    {\small{New Orleans Pelicans on FT\%}}
-    \end{tikzfigure}%
-\end{minipage}
-\hfill
-\begin{minipage}{0.5\linewidth}
-    \centering
-    \begin{tikzfigure}
-    \missingfigure[figcolor=white]{Testing figcolor}
-
-    {\small{New Orleans Pelicans on FTA}}
-    \end{tikzfigure}%
-\end{minipage}
-\vspace{.2cm}
-\begin{description}
-\item
-\texttt{New Orleans Pelicans} has more players with
-lower \{free throw percentage\}, \{free throws attempted\}.
-\end{description}
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 
@@ -300,15 +282,9 @@ lower \{free throw percentage\}, \{free throws attempted\}.
 {Conclusion}
 {
 \begin{description}
-  \item[Problem Definition]
-  Formalize the problem of Group Outlying Aspects Mining by extending outlying aspects mining.
-
-  \item[GOAM algorithm]
-  Propose GOAM algorithm to solve the \emph{Group}\\
-  \emph{Outlying Aspects Mining} problem.
-
-  \item[Strategies]
-  Utilize the pruning strategies to \\ reduce time complexity.
+  \item
+  The RMSE of the model was reduced from 0.0152 to 0.013 by cross-validation through grid search, and the accuracy of the model was also improved.
+The limitation of this study is that it does not consider whether there is overfitting of the model, and further experiments can be carried out in future studies.
 \end{description}
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
@@ -327,6 +303,14 @@ Acknowledgement
     of IIE,
     Chinese Academy of Sciences
  \end{itemize}
+ \bigskip
+ \bigskip
+ \bigskip
+ \bigskip
+ \bigskip
+ \bigskip
+ \bigskip
+ \bigskip
 }
 
 %\note[targetoffsetx=8cm, targetoffsety=-10cm,rotate=0,angle=180,radius=8cm,width=.46\textwidth,innersep=.1cm]{
