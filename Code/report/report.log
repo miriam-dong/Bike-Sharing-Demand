@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  5 JUL 2021 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  5 JUL 2021 15:10
 entering extended mode
 **./report.tex
 (report.tex
@@ -1329,7 +1329,7 @@ or `english'. on input line 24.
 
  [1] (mainbody.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 5.
+ine 26.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1360,7 +1360,7 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Package natbib Warning: Citation `BL12J01' on page 2 undefined on input line 45
+Package natbib Warning: Citation `BL12J01' on page 2 undefined on input line 66
 .
 
 Including 'JournalOnly' comment.
@@ -1470,16 +1470,25 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 [5]
 No complaints by nag.
 (report.aux)
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 7F65B99056C2AC11ABF4F31A9B48E6A0;872.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: F3942C4E05D5FFB25692A42C3F01CCC7;756
+(rerunfilecheck)             After:  7F65B99056C2AC11ABF4F31A9B48E6A0;872.
  ) 
 Here is how much of TeX's memory you used:
- 37129 strings out of 478865
- 734412 string characters out of 2858540
- 1400703 words of memory out of 3000000
- 54232 multiletter control sequences out of 15000+600000
+ 37142 strings out of 478865
+ 734524 string characters out of 2858540
+ 1399766 words of memory out of 3000000
+ 54245 multiletter control sequences out of 15000+600000
  410617 words of font info for 55 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  122i,13n,134p,543b,977s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (5 pages, 100920 bytes).
+Output written on report.dvi (5 pages, 100548 bytes).
