@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.6) (preloaded format=xelatex 2021.6.25)  5 JUL 2021 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  5 JUL 2021 13:54
 entering extended mode
-**d:/Users/huawei/Documents/GitHub/FLIP00/Code/poster/poster.tex
-(d:/Users/huawei/Documents/GitHub/FLIP00/Code/poster/poster.tex
+**./poster.tex
+(poster.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01>
 (D:\Program Files\MiKTeX\tex/latex/tikzposter\tikzposter.cls
@@ -15,20 +15,20 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@tempa@toks=\toks17
 
 (D:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
-\XKV@depth=\count178
+\XKV@depth=\count182
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (D:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count179
-\calc@Bcount=\count180
+\calc@Acount=\count183
+\calc@Bcount=\count184
 \calc@Adimen=\dimen138
 \calc@Bdimen=\dimen139
 \calc@Askip=\skip47
 \calc@Bskip=\skip48
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count181
+\calc@Ccount=\count185
 \calc@Cskip=\skip49
 )
 (D:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
@@ -39,158 +39,17 @@ Package: ae 2001/02/12 1.3 Almost European Computer Modern
 
 (D:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(D:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)))
+))
 (D:\Program Files\MiKTeX\tex/latex/xstring\xstring.sty
 (D:\Program Files\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count182
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-\decimalpart=\count183
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+\integerpart=\count186
+\decimalpart=\count187
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 (D:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count184
+\etb@tempcnta=\count188
 )
 (D:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
 (D:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
@@ -223,10 +82,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (D:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
+Package graphics Info: Driver file: dvips.def on input line 107.
 
-(D:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def
-File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+(D:\Program Files\MiKTeX\tex/latex/graphics-def\dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
@@ -254,35 +113,32 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen153
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count185
-\c@pgf@countb=\count186
-\c@pgf@countc=\count187
-\c@pgf@countd=\count188
+\c@pgf@counta=\count189
+\c@pgf@countb=\count190
+\c@pgf@countc=\count191
+\c@pgf@countd=\count192
 \t@pgf@toka=\toks22
 \t@pgf@tokb=\toks23
 \t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count189
+\pgf@sys@id@count=\count193
 
 (D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-dvips.def
 
-(D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-xetex.def
-File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+(D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvips.def
+File: pgfsys-dvips.def 2021/05/15 v3.1.9a (3.1.9a)
 
-(D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
-
-(D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-)
-\pgfsys@objnum=\count190
+(D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-postscript.d
+ef
+File: pgfsys-common-postscript.def 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@objectcount=\count194
 )))
 (D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count191
-\pgfsyssoftpath@bigbuffer@items=\count192
+\pgfsyssoftpath@smallbuffer@items=\count195
+\pgfsyssoftpath@bigbuffer@items=\count196
 )
 (D:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -293,7 +149,7 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (D:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
@@ -311,7 +167,7 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
 (D:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen154
-\pgfmath@count=\count193
+\pgfmath@count=\count197
 \pgfmath@box=\box51
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
@@ -331,7 +187,7 @@ tex)
 (D:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
 cs.code.tex)))
 (D:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count194
+\c@pgfmathroundto@lastzeros=\count198
 ))
 (D:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
 (D:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -367,7 +223,7 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box52
 \pgf@hbox=\box53
 \pgf@layerbox@main=\box54
-\pgf@picture@serial@count=\count195
+\pgf@picture@serial@count=\count199
 )
 (D:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
 x
@@ -394,8 +250,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (D:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen178
-\pgf@sys@shading@range@num=\count196
-\pgf@shadingcount=\count197
+\pgf@sys@shading@range@num=\count266
+\pgf@shadingcount=\count267
 )
 (D:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -449,7 +305,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (D:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count198
+\pgf@plot@mark@count=\count268
 \pgfplotmarksize=\dimen183
 )
 \tikz@lastx=\dimen184
@@ -464,17 +320,17 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box58
 \tikz@tempbox=\box59
 \tikz@tempbox@bg=\box60
-\tikztreelevel=\count199
-\tikznumberofchildren=\count266
-\tikznumberofcurrentchild=\count267
-\tikz@fig@count=\count268
+\tikztreelevel=\count269
+\tikznumberofchildren=\count270
+\tikznumberofcurrentchild=\count271
+\tikz@fig@count=\count272
  (D:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count269
-\pgfmatrixcurrentcolumn=\count270
-\pgf@matrix@numberofcolumns=\count271
+\pgfmatrixcurrentrow=\count273
+\pgfmatrixcurrentcolumn=\count274
+\pgf@matrix@numberofcolumns=\count275
 )
-\tikz@expandcount=\count272
+\tikz@expandcount=\count276
 
 (D:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
@@ -556,7 +412,7 @@ rydecorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen194
 \pgfdecoratedinputsegmentremainingdistance=\dimen195
 \pgf@decorate@distancetomove=\dimen196
-\pgf@decorate@repeatstate=\count273
+\pgf@decorate@repeatstate=\count277
 \pgfdecorationsegmentamplitude=\dimen197
 \pgfdecorationsegmentlength=\dimen198
 )
@@ -690,14 +546,14 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
 \big@size=\dimen330
 )
-\c@part=\count274
-\c@section=\count275
-\c@subsection=\count276
-\c@subsubsection=\count277
-\c@paragraph=\count278
-\c@subparagraph=\count279
-\c@figure=\count280
-\c@table=\count281
+\c@part=\count278
+\c@section=\count279
+\c@subsection=\count280
+\c@subsubsection=\count281
+\c@paragraph=\count282
+\c@subparagraph=\count283
+\c@figure=\count284
+\c@table=\count285
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 \bibindent=\dimen331
@@ -711,9 +567,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (D:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count282
-\Gm@cntv=\count283
-\c@Gm@tempcnt=\count284
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
 \Gm@bindingoffset=\dimen332
 \Gm@wd@mp=\dimen333
 \Gm@odd@mp=\dimen334
@@ -747,7 +603,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (D:\Program Files\MiKTeX\tex/latex/tikzposter\tikzposterInnerblockstyles.tex)
 (D:\Program Files\MiKTeX\tex/latex/tikzposter\tikzposterNotestyles.tex)
 (D:\Program Files\MiKTeX\tex/latex/tikzposter\tikzposterLayoutthemes.tex)
-\c@figurecounter=\count285
+\c@figurecounter=\count289
 )
 (D:\Program Files\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
@@ -757,7 +613,7 @@ Package: todonotes 2021/06/04
 rypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-\c@@todonotes@numberoftodonotes=\count286
+\c@@todonotes@numberoftodonotes=\count290
 ) (D:\Program Files\MiKTeX\tex/latex/bclogo\bclogo.sty
 Package: bclogo 2016/01/10 v3.1
 \bc@invboxh=\skip52
@@ -781,17 +637,15 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 (D:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-06-01 L3 programming layer (loader) 
 
-(D:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
-File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
- ()
-\c__kernel_sys_dvipdfmx_version_int=\count287
-\l__color_backend_stack_int=\count288
-\g__color_backend_stack_int=\count289
-\g__graphics_track_int=\count290
+(D:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-dvips.def
+File: l3backend-dvips.def 2021-05-07 L3 backend support: dvips
 \l__pdf_internal_box=\box94
 \g__pdf_backend_object_int=\count291
+\l__pdf_backend_content_box=\box95
+\l__pdf_backend_model_box=\box96
 \g__pdf_backend_annotation_int=\count292
 \g__pdf_backend_link_int=\count293
+\g__pdf_backend_link_sf_int=\count294
 ))
 Package: xparse 2021-06-01 L3 Experimental document command parser
 )
@@ -812,7 +666,7 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
 (D:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -828,14 +682,14 @@ Package zref Info: New property: page on input line 766.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\c@abspage=\count294
+\c@abspage=\count295
 Package zref Info: New property: abspage on input line 66.
 )
 (D:\Program Files\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip56
-\c@mdf@globalstyle@cnt=\count295
+\c@mdf@globalstyle@cnt=\count296
 \mdf@skipabove@length=\skip57
 \mdf@skipbelow@length=\skip58
 \mdf@leftmargin@length=\skip59
@@ -879,11 +733,11 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 (D:\Program Files\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box95
-\mdf@footnotebox=\box96
-\mdf@splitbox@one=\box97
-\mdf@splitbox@two=\box98
-\mdf@splitbox@save=\box99
+\mdf@frametitlebox=\box97
+\mdf@footnotebox=\box98
+\mdf@splitbox@one=\box99
+\mdf@splitbox@two=\box100
+\mdf@splitbox@save=\box101
 \mdfsplitboxwidth=\skip96
 \mdfsplitboxtotalwidth=\skip97
 \mdfsplitboxheight=\skip98
@@ -911,39 +765,29 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip120
 \mdfsubtitleheight=\skip121
 \mdfsubsubtitleheight=\skip122
-\c@mdfcountframes=\count296
+\c@mdfcountframes=\count297
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count297
-\c@mdf@env@i=\count298
-\c@mdf@env@ii=\count299
-\c@mdf@zref@counter=\count300
+\mdf@envdepth=\count298
+\c@mdf@env@i=\count299
+\c@mdf@env@ii=\count300
+\c@mdf@zref@counter=\count301
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (D:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-\c@bclogocompteur=\count301
+\c@bclogocompteur=\count302
 \bcval@epBarre=\skip123
 \bcval@framesep=\skip124
 \bcval@tailleOndu=\skip125
 \bcval@borderWidth=\skip126
-Invalid UTF-8 byte or sequence at line 216 replaced by U+FFFD.
 \bcval@margeG=\skip127
-Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
 \bcval@margeD=\skip128
-\bc@envbox=\box100
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
+\bc@envbox=\box102
 )
 (D:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
@@ -971,30 +815,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (D:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count302
+\inf@bad=\count303
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count303
-\leftroot@=\count304
+\uproot@=\count304
+\leftroot@=\count305
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count305
-\DOTSCASE@=\count306
+\classnum@=\count306
+\DOTSCASE@=\count307
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box101
-\strutbox@=\box102
+\Mathstrutbox@=\box103
+\strutbox@=\box104
 \big@size=\dimen343
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count307
-\c@MaxMatrixCols=\count308
+\macc@depth=\count308
+\c@MaxMatrixCols=\count309
 \dotsspace@=\muskip16
-\c@parentequation=\count309
-\dspbrk@lvl=\count310
+\c@parentequation=\count310
+\dspbrk@lvl=\count311
 \tag@help=\toks32
-\row@=\count311
-\column@=\count312
-\maxfields@=\count313
+\row@=\count312
+\column@=\count313
+\maxfields@=\count314
 \andhelp@=\toks33
 \eqnshift@=\dimen344
 \alignsep@=\dimen345
@@ -1021,12 +865,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen357
 \cmidrulekern=\dimen358
 \defaultaddspace=\dimen359
-\@cmidla=\count314
-\@cmidlb=\count315
+\@cmidla=\count315
+\@cmidlb=\count316
 \@aboverulesep=\dimen360
 \@belowrulesep=\dimen361
-\@thisruleclass=\count316
-\@lastruleclass=\count317
+\@thisruleclass=\count317
+\@lastruleclass=\count318
 \@thisrulewidth=\dimen362
 )
 (D:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
@@ -1035,17 +879,17 @@ Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \LTright=\skip133
 \LTpre=\skip134
 \LTpost=\skip135
-\LTchunksize=\count318
+\LTchunksize=\count319
 \LTcapwidth=\dimen363
-\LT@head=\box103
-\LT@firsthead=\box104
-\LT@foot=\box105
-\LT@lastfoot=\box106
-\LT@gbox=\box107
-\LT@cols=\count319
-\LT@rows=\count320
-\c@LT@tables=\count321
-\c@LT@chunks=\count322
+\LT@head=\box105
+\LT@firsthead=\box106
+\LT@foot=\box107
+\LT@lastfoot=\box108
+\LT@gbox=\box109
+\LT@cols=\count320
+\LT@rows=\count321
+\c@LT@tables=\count322
+\c@LT@chunks=\count323
 \LT@p@ftn=\toks36
 )
 (D:\Program Files\MiKTeX\tex/latex/textpos\textpos.sty
@@ -1053,8 +897,8 @@ Package: textpos 2020/09/26 v1.10
 
 Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
 Package textpos Info: choosing support for LaTeX3 on input line 61.
-\TP@textbox=\box108
-\TP@holdbox=\box109
+\TP@textbox=\box110
+\TP@holdbox=\box111
 \TPHorizModule=\dimen364
 \TPVertModule=\dimen365
 \TP@margin=\dimen366
@@ -1073,10 +917,10 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigbottomskip=\skip138
 \subfigcapmargin=\dimen372
 \subfiglabelskip=\skip139
-\c@subfigure=\count323
-\c@lofdepth=\count324
-\c@subtable=\count325
-\c@lotdepth=\count326
+\c@subfigure=\count324
+\c@lofdepth=\count325
+\c@subtable=\count326
+\c@lotdepth=\count327
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -1157,12 +1001,9 @@ LaTeX Font Info:    Trying to load font information for T1+cmbr on input line 1
 File: t1cmbr.fd 2005/04/13 v8.1 (WaS)
 ))
 (D:\Program Files\MiKTeX\tex/latex/kurier\kurier.sty
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
 Package: kurier 2005/10/03 v.1.2 Kurier package (MW)
-\c@mv@kurier=\count327
-\c@mv@kurierbold=\count328
+\c@mv@kurier=\count328
+\c@mv@kurierbold=\count329
 LaTeX Font Info:    Overwriting symbol font `operators' in version `kurier'
 (Font)                  OT1/cmbr/m/n --> OT1/kurierm/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `kurier'
@@ -1217,11 +1058,13 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 \@linkdim=\dimen373
-\Hy@linkcounter=\count329
-\Hy@pagecounter=\count330
+\Hy@linkcounter=\count330
+\Hy@pagecounter=\count331
 
 (D:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-05 v7.00l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
 (D:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
 File: hyperref-langpatches.def 2021-06-05 v7.00l Hyperref: patches for babel la
@@ -1230,10 +1073,12 @@ nguages
 (D:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count331
+\Hy@SavedSpaceFactor=\count332
 
 (D:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-05 v7.00l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
@@ -1242,7 +1087,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count332
+\c@Hy@tempcnt=\count333
 
 (D:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -1258,7 +1103,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count333
+\Fld@menulength=\count334
 \Field@Width=\dimen375
 \Fld@charsize=\dimen376
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -1270,21 +1115,21 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6101.
 Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
-\Hy@abspage=\count334
-\c@Item=\count335
-\c@Hfootnote=\count336
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
 )
-Package hyperref Info: Driver (autodetected): hxetex.
+Package hyperref Info: Driver (default): hdvips.
 
-(D:\Program Files\MiKTeX\tex/latex/hyperref\hxetex.def
-File: hxetex.def 2021-06-05 v7.00l Hyperref driver for XeTeX
+(D:\Program Files\MiKTeX\tex/latex/hyperref\hdvips.def
+File: hdvips.def 2021-06-05 v7.00l Hyperref driver for dvips
 
-(D:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box110
-\c@Hy@AnnotLevel=\count337
+(D:\Program Files\MiKTeX\tex/latex/hyperref\pdfmark.def
+File: pdfmark.def 2021-06-05 v7.00l Hyperref definitions for pdfmark specials
+\pdf@docset=\toks38
+\pdf@box=\box112
+\pdf@toks=\toks39
+\pdf@defaulttoks=\toks40
 \HyField@AnnotCount=\count338
 \Fld@listcount=\count339
 \c@bookmark@seq@number=\count340
@@ -1304,7 +1149,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip142
-)
+))
 (D:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/06/02 3.60 The Babel package
 
@@ -1314,8 +1159,7 @@ File: babel.def 2021/06/02 3.60 Babel common definitions
 \U@D=\dimen377
 \l@unhyphenated=\language79
 
-(D:\Program Files\MiKTeX\tex/generic/babel\xebabel.def
-(D:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def))
+(D:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 )
 \bbl@dirlevel=\count342
@@ -1360,7 +1204,8 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count358
 \c@blind@pangramcount=\count359
 \c@blind@pangrammax=\count360
-) (poster.aux)
+)
+No file poster.aux.
 \openout1 = `poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -1372,14 +1217,6 @@ LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-2.
-
-(D:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
@@ -1389,11 +1226,10 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
-
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: dvips
 * paper: a0paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1463,37 +1299,26 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 72.
 LaTeX Info: Redefining \pageref on input line 72.
 LaTeX Info: Redefining \nameref on input line 72.
-
-(poster.out) (poster.out)
 \@outlinefile=\write4
 \openout4 = `poster.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 LaTeX Font Info:    Trying to load font information for TS1+kurier on input lin
 e 150.
-
 (D:\Program Files\MiKTeX\tex/latex/kurier\ts1kurier.fd
 File: ts1kurier.fd 2008/07/22 v0.995 font definition file for TS1/kurier (MW)
 )
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 File: figures//Time_trends_day.eps Graphic file (type eps)
-<figures//Time_trends_day.eps>
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-File: figures//weather.eps Graphic file (type eps)
-<figures//weather.eps>
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 
+<figures//Time_trends_day.eps>
+File: figures//weather.eps Graphic file (type eps)
+ <figures//weather.eps>
 Underfull \hbox (badness 10000) in paragraph at lines 223--223
 \T1/kurier/m/n/29.86 hour>temp>atemp>humidity>month>season>year>weather>windspe
 ed
@@ -1501,46 +1326,72 @@ ed
 
 File: figures//cor_rank.eps Graphic file (type eps)
 <figures//cor_rank.eps>
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
 File: logos/tulip-wordmark.eps Graphic file (type eps)
-<logos/tulip-wordmark.eps>
-
-Overfull \hbox (0.53442pt too wide) in paragraph at lines 304--304
+ <logos/tulip-wordmark.eps>
+Overfull \hbox (0.53442pt too wide) in paragraph at lines 305--305
  [][] 
  []
 
 
-Overfull \hbox (5.52335pt too wide) in paragraph at lines 304--304
+Overfull \hbox (5.52335pt too wide) in paragraph at lines 305--305
 []$[]$ $[]$ 
  []
 
+poster.tex:309: Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.309 \end{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+poster.tex:309: Undefined control sequence.
+\pdfmark@ ...type \space pdfmark}\Hy@endcolorlink 
+                                                  \fi \fi \fi 
+l.309 \end{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 [1
 
-] (poster.aux)
-Package rerunfilecheck Info: File `poster.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+] (poster.aux
+
+poster.aux:5: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \HyperFirstAtBeginDocument
+                              {\ifx\hyper@anchor\@undefined
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+
+Package rerunfilecheck Warning: File `poster.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `poster.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27530 strings out of 411271
- 531611 string characters out of 2833087
- 1127789 words of memory out of 3000000
- 47458 multiletter control sequences out of 15000+600000
- 481996 words of font info for 74 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 117i,10n,122p,566b,1485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27331 strings out of 478865
+ 538448 string characters out of 2858540
+ 1157654 words of memory out of 3000000
+ 44695 multiletter control sequences out of 15000+600000
+ 477166 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 117i,10n,122p,516b,1493s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on poster.pdf (1 page).
+Output written on poster.dvi (1 page, 99900 bytes).
