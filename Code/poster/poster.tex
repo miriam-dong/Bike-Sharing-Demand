@@ -124,8 +124,8 @@
     Data Fields
     \end{itemize} 
       
-     
-      \begin{tabular}{ c | c }
+    \bigskip 
+      \begin{tabular}{ l | l }
         \toprule
         Attribute     &  Description          \\
         \midrule
@@ -162,65 +162,33 @@
 
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-\block{Data Visualization}{
-  	We propose the \emph{GOAM} algorithm to solve the research problem of
-    \emph{Group Outlying Aspects Mining}.
-  	The \emph{GOAM} algorithm includes three major steps.
-%    1) Group Feature Extraction,
-%    2) Outlying Degree Scoring, and
-%    3) Outlying Aspects Identification.
-  	
-\begin{tikzfigure}%[Overall architecture of \emph{GOAM} algorithm]
-%  \includegraphics[width=0.8\linewidth]{figures//framework.pdf}
-    \missingfigure[figcolor=white]{Testing figcolor}
+\block{Data Visualization}
+{
+\begin{itemize}
+\item
+Time characteristic analysis
+\end{itemize} 
+\vspace{-1cm} 
+\begin{tikzfigure}
+\centering
+\selectcolormodel{rgb}
+%  \missingfigure{Testing a long text string.}
+\includegraphics[width=0.2\textwidth]{figures//Time_trends_day.eps}\\
+%  \caption{The amount rented at different times of the day} \label{framework}
 \end{tikzfigure}
-		
-\begin{description}
-  	\item[Group Feature Extraction]
-  	Let $f_1$, $f_2$, $f_3$ represent three features of $G_q$.
-    We count the frequency of each value for one feature.
-    Then use the histogram to represent each feature.
-    Similarly,
-    we can extract other features for each group.
-
-%    \item
-%    The histogram of $G_q$ on three features are as follows.
-\end{description}
-
-\begin{center}
-    \begin{minipage}{0.3\linewidth}
-    \centering
-    \begin{tikzfigure}
-    \missingfigure[figcolor=white]{Testing figcolor}
-    {\small{Histogram of $G_q$ on $f_1$}}
-    \end{tikzfigure}%
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.3\linewidth}
-    \centering
-    \begin{tikzfigure}
-    \missingfigure[figcolor=white]{Testing figcolor}
-    {\small{Histogram of $G_q$ on $f_2$}}
-    \end{tikzfigure}%
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.3\linewidth}
-    \centering
-    \begin{tikzfigure}
-    \missingfigure[figcolor=white]{Testing figcolor}
-    {\small{Histogram of $G_q$ on $f_3$}}
-    \end{tikzfigure}%
-    \end{minipage}
-\end{center}
-\begin{description}
-\item[Outlying Degree Scoring]
-    In this step,
-    we first calculate the \emph{earth mover distance} (EMD) of one feature among different groups.
-    The earth mover distance reflects the minimum mean distance
-    between groups on one feature.
-    So,
-    we utilize the EMD to measure the difference between groups of each feature.
-\end{description}
+        
+\begin{itemize}
+\item
+Weather characteristics analysis
+\end{itemize}
+\vspace{-0.8cm}
+\begin{tikzfigure}
+\centering
+\selectcolormodel{rgb}
+%  \missingfigure{Testing a long text string.}
+\includegraphics[width=0.4\textwidth]{figures//weather.eps}\\
+%\caption{The effect of weather on rental amount} \label{framework}
+\end{tikzfigure}
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 
@@ -230,32 +198,22 @@
  %Second column with first block's top edge aligned with with previous column's top.
 
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-\block{GOAM Algorithm}{
+\block{Feature Selection and Feature Importance}{
 \begin{description}
-    \item
-    Second,
-    based on the \emph{earth move distance},
-    we calculate the outlying degree.
+\item
+The influence of characteristics on count is as follows:\\ 
+hour>temp>atemp>humidity>month>season>year>weather>windspeed
+>workingday>weekday>day>holiday
 \end{description}
-
-\begin{tikzfigure}%[Overall architecture of \emph{GOAM} algorithm]
-    \missingfigure[figcolor=white]{Testing figcolor}
+\vspace{-0.8cm}
+\begin{tikzfigure}
+\centering
+\selectcolormodel{rgb}
+%  \missingfigure{Testing a long text string.}
+\includegraphics[width=0.4\textwidth]{figures//cor_rank.eps}\\
+\caption{Correlation rank} \label{framework}
 \end{tikzfigure}
-  where $G_q$ is the query group,
-  $n$ is the number of compare groups,
-  and $h_{k_s}$ is the histogram representation of $G_k$ in the subspace $s$.
 
-\begin{description}
-  	\item[Outlying Aspects Identification]
-    In this step,
-    based on the value of outlying degree
-    we will identify the group outlying aspects.
-    If a feature's outlying degree is greater than a threshold,
-    the more likely the feature is group outlying aspect.
-    When the dimensionality of features is high,
-    we adopt a stage-wise candidate subspace construction strategy to
-    alleviate the exponential explosion.
-\end{description}
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 % Second column - first block
