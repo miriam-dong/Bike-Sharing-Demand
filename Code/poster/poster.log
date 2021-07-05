@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.6) (preloaded format=xelatex 2021.6.25)  5 JUL 2021 11:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.6) (preloaded format=xelatex 2021.6.25)  5 JUL 2021 11:58
 entering extended mode
 **d:/Users/huawei/Documents/GitHub/FLIP00/Code/poster/poster.tex
 (d:/Users/huawei/Documents/GitHub/FLIP00/Code/poster/poster.tex
@@ -1360,35 +1360,35 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count358
 \c@blind@pangramcount=\count359
 \c@blind@pangrammax=\count360
-)
-No file poster.aux.
+) (poster.aux)
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-3.
+2.
+
 (D:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1425,29 +1425,29 @@ LaTeX Font Info:    ... okay on input line 73.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+kurierm on input li
-ne 73.
+ne 72.
 (D:\Program Files\MiKTeX\tex/latex/kurier\ot1kurierm.fd
 File: ot1kurierm.fd 2005/10/03 v1.2 font definition file for OT1/kurierm (MW)
 )
 LaTeX Font Info:    Trying to load font information for OML+kurier on input lin
-e 73.
+e 72.
 
 (D:\Program Files\MiKTeX\tex/latex/kurier\omlkurier.fd
 File: omlkurier.fd 2008/07/22 v0.995 font definition file for OML/kurier (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+kurier on input lin
-e 73.
+e 72.
 
 (D:\Program Files\MiKTeX\tex/latex/kurier\omskurier.fd
 File: omskurier.fd 2008/07/22 v0.995 font definition file for OMS/kurier (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+kurier on input lin
-e 73.
+e 72.
 
 (D:\Program Files\MiKTeX\tex/latex/kurier\omxkurier.fd
 File: omxkurier.fd 2008/07/22 v0.995 font definition file for OMX/kurier (MW)
 )
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 72.
 
 (D:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1460,15 +1460,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count361
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
+
+(poster.out) (poster.out)
 \@outlinefile=\write4
 \openout4 = `poster.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
@@ -1477,47 +1475,33 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 LaTeX Font Info:    Trying to load font information for TS1+kurier on input lin
-e 177.
+e 146.
+
 (D:\Program Files\MiKTeX\tex/latex/kurier\ts1kurier.fd
 File: ts1kurier.fd 2008/07/22 v0.995 font definition file for TS1/kurier (MW)
 )
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 177.
+ine 220.
 
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 177--177
+Overfull \hbox (8.4333pt too wide) in paragraph at lines 220--220
  [] 
  []
 
 
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 177--177
+Overfull \hbox (8.43329pt too wide) in paragraph at lines 220--220
  [] 
  []
 
 
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 177--177
- [] 
- []
-
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-
-Overfull \hbox (8.4333pt too wide) in paragraph at lines 251--251
+Overfull \hbox (8.43329pt too wide) in paragraph at lines 220--220
  [] 
  []
 
 
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 251--251
- [] 
- []
-
-
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 251--251
- [] 
- []
-
-
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 251--251
+Overfull \hbox (8.43329pt too wide) in paragraph at lines 220--220
  [] 
  []
 
@@ -1525,7 +1509,7 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 286--286
+Overfull \hbox (8.43329pt too wide) in paragraph at lines 255--255
  [] 
  []
 
@@ -1533,26 +1517,26 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 
-Overfull \hbox (16.30641pt too wide) in paragraph at lines 362--362
+Overfull \hbox (16.30641pt too wide) in paragraph at lines 331--331
 []
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 3
-62.
+31.
 (D:\Program Files\MiKTeX\tex/latex/cmbright\t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 )
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 362--362
+Overfull \hbox (8.43329pt too wide) in paragraph at lines 331--331
  [] 
  []
 
 
-Overfull \hbox (8.43329pt too wide) in paragraph at lines 362--362
+Overfull \hbox (8.43329pt too wide) in paragraph at lines 331--331
  [] 
  []
 
 
-Overfull \hbox (6.62892pt too wide) in paragraph at lines 362--362
+Overfull \hbox (6.62892pt too wide) in paragraph at lines 331--331
 []$[]$  $[]$
  []
 
@@ -1562,57 +1546,37 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 7 in font nullfont!
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 403 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 403 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 403 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 403 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 403 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 403 replaced by U+FFFD.
 File: logos/tulip-wordmark.eps Graphic file (type eps)
 <logos/tulip-wordmark.eps>
 
-Overfull \hbox (0.53442pt too wide) in paragraph at lines 434--434
+Overfull \hbox (0.53442pt too wide) in paragraph at lines 403--403
  [][] 
  []
 
 
-Overfull \hbox (5.52335pt too wide) in paragraph at lines 434--434
+Overfull \hbox (5.52335pt too wide) in paragraph at lines 403--403
 []$[]$ $[]$ 
  []
 
 [1
 
-] (poster.aux
-
-poster.aux:5: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \HyperFirstAtBeginDocument
-                              {\ifx\hyper@anchor\@undefined
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-
-Package rerunfilecheck Warning: File `poster.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `poster.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+] (poster.aux)
+Package rerunfilecheck Info: File `poster.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27561 strings out of 411271
- 532130 string characters out of 2833087
- 1175069 words of memory out of 3000000
- 47495 multiletter control sequences out of 15000+600000
- 500846 words of font info for 90 fonts, out of 8000000 for 9000
+ 27555 strings out of 411271
+ 531960 string characters out of 2833087
+ 1162481 words of memory out of 3000000
+ 47483 multiletter control sequences out of 15000+600000
+ 488960 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 117i,12n,122p,566b,2038s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,12n,122p,566b,2034s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on poster.pdf (1 page).
