@@ -499,40 +499,42 @@ probably due to the lower temperature.
 %%
 %%==========================================================================================
   
-\section{Modelling and evaluation}
+\section{Modelling and Forecasting}
 
 
 %%==========================================================================================
 %%
-  \begin{slide}{Modelling}
+\begin{slide}{}
   
-  \begin{itemize}
-  \item
-  Select random forest model
-  \item
-  Grid search was used to determine the optimal parameters
-  \begin{itemize}
-    \item
-    'n_estimators': 950
-    \item
-    'max_depth': 9
-    \item
-    'min_samples_split': 10
-  \end{itemize} 
+\begin{itemize}
+\item
+Select random forest model and cross validation using grid search
+  
+\end{itemize} 
+\vspace{1.5cm}
+\begin{tabular}{ c | c | c  }
+\toprule
+Result     &  The initial model    & After cross validation       \\
+\midrule
+Accuracy       &  0.9338   &  0.9249       \\
+  
+MSLE      &  0.0152   &  0.0159     \\
+  
+\bottomrule       
+\end{tabular}
 
 
-  \end{itemize} 
 
   
   
   
-  \end{slide}
+\end{slide}
 %%
 %%==========================================================================================
       
 
 
-\section{Evaluation Results}
+\section{Conclusion}
 
 
 %%==========================================================================================
@@ -543,12 +545,9 @@ probably due to the lower temperature.
 \begin{itemize}
 
 \item
-\smallskip
-\large
-{$Accuracy = \frac{P}{T}$ \\
-P: Identified outlying aspects \\
-
-T: Real outlying aspects}
+Cross-validation by grid search did not decrease the RMSE of the model and did not improve the accuracy of the model.
+The effect did not come up to expectations.
+The limitation of this study is that it does not consider whether there is overfitting of the model, and further experiments can be carried out in future studies.
 
 \end{itemize}
 \end{center}

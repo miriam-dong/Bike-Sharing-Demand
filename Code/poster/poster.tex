@@ -177,18 +177,7 @@ Time characteristic analysis
 %  \caption{The amount rented at different times of the day} \label{framework}
 \end{tikzfigure}
         
-\begin{itemize}
-\item
-Weather characteristics analysis
-\end{itemize}
-\vspace{-0.8cm}
-\begin{tikzfigure}
-\centering
-\selectcolormodel{rgb}
-%  \missingfigure{Testing a long text string.}
-\includegraphics[width=0.4\textwidth]{figures//weather.eps}\\
-%\caption{The effect of weather on rental amount} \label{framework}
-\end{tikzfigure}
+
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 
@@ -223,23 +212,14 @@ hour>temp>atemp>humidity>month>season>year>weather>windspeed
 >workingday>weekday>day>holiday
 \end{description}
 \vspace{-0.8cm}
-\bigskip
-\bigskip
 \begin{tikzfigure}
 \centering
 \selectcolormodel{rgb}
 %  \missingfigure{Testing a long text string.}
 \includegraphics[width=0.4\textwidth]{figures//cor_rank.eps}\\
-\caption{Correlation rank} \label{framework}
+%\caption{Correlation rank} \label{framework}
 \end{tikzfigure}
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
+
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 % Second column - first block
@@ -257,21 +237,14 @@ hour>temp>atemp>humidity>month>season>year>weather>windspeed
     \toprule
     Result     &  The initial model    & After cross validation       \\
     \midrule
-    Accuracy       &  0.9338   &  $\{F_1\}$, $\{F_2F_4\}$       \\
+    Accuracy       &  0.9338   &  0.9249       \\
 
-    MSLE      &  0.0152   &  $\{F_4\}$, $\{F_2\}$     \\
+    MSLE      &  0.0152   &  0.0159     \\
 
      
      \bottomrule
 \end{tabular}
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
-\bigskip
+
 }
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
 
@@ -283,7 +256,8 @@ hour>temp>atemp>humidity>month>season>year>weather>windspeed
 {
 \begin{description}
   \item
-  The RMSE of the model was reduced from 0.0152 to 0.013 by cross-validation through grid search, and the accuracy of the model was also improved.
+  Cross-validation by grid search did not decrease the RMSE of the model and did not improve the accuracy of the model.
+The effect did not come up to expectations.
 The limitation of this study is that it does not consider whether there is overfitting of the model, and further experiments can be carried out in future studies.
 \end{description}
 }
@@ -292,26 +266,7 @@ The limitation of this study is that it does not consider whether there is overf
 
 % Bottomblock
 %%%%%%%%%% -------------------------------------------------------------------- %%%%%%%%%%
-\colorlet{notebgcolor}{blue!20}
-\colorlet{notefrcolor}{blue!20}
-\note[targetoffsetx=8cm, targetoffsety=-4cm, angle=30, rotate=15,
-radius=2cm, width=.26\textwidth]{
-Acknowledgement
-\begin{itemize}
-    \item
-    International Cooperation Project (Y7Z0511101)
-    of IIE,
-    Chinese Academy of Sciences
- \end{itemize}
- \bigskip
- \bigskip
- \bigskip
- \bigskip
- \bigskip
- \bigskip
- \bigskip
- \bigskip
-}
+
 
 %\note[targetoffsetx=8cm, targetoffsety=-10cm,rotate=0,angle=180,radius=8cm,width=.46\textwidth,innersep=.1cm]{
 %Acknowledgement
