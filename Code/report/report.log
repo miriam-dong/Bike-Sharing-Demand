@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  4 JUL 2021 02:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  5 JUL 2021 11:24
 entering extended mode
 **./report.tex
 (report.tex
@@ -1243,8 +1243,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \c@example=\count400
 \c@definition=\count401
 \c@Algorithms=\count402
-))
-No file report.aux.
+)) (report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1266,6 +1265,7 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+
 
 (D:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1298,12 +1298,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
+
+(report.out) (report.out)
 \@outlinefile=\write6
 \openout6 = `report.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Info: Redefining \microtypecontext on input line 24.
 Package microtype Info: Generating DVI output.
@@ -1313,6 +1311,7 @@ Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
+
 (D:\Program Files\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -1324,7 +1323,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 24.
- (abstract.tex)
+ (abstract.tex) (report.toc)
 \tf@toc=\write7
 \openout7 = `report.toc'.
 
@@ -1378,14 +1377,6 @@ Package natbib Warning: Citation `BJL11J01' on page 2 undefined on input line 1
 
 )
 
-LaTeX Warning: Reference `tbl:overall-experiments' on page 1 undefined on input
- line 50.
-
-
-LaTeX Warning: Reference `sec-conclusions' on page 1 undefined on input line 52
-.
-
-
 LaTeX Warning: Marginpar on page 2 moved.
 
 
@@ -1407,11 +1398,8 @@ Including 'ConferenceOnly' comment.
 \openout3 = `comment.cut'.
 
  Straight input of comment.cut. (comment.cut)
-
-LaTeX Warning: Reference `eq:test' on page 1 undefined on input line 79.
-
 File: logos/tulip-logo.eps Graphic file (type eps)
-<logos/tulip-logo.eps>
+ <logos/tulip-logo.eps>
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.79996pt, for example:
@@ -1435,9 +1423,32 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 
 [4]
 No file report.bbl.
+(report.tdo
+Overfull \hbox (914.5239pt too wide) in paragraph at lines 2--2
+ [][] [] [][]  
+ []
 
-Package hyperref Warning: old tdo file detected, not used; run LaTeX again.
 
+Overfull \hbox (841.91252pt too wide) in paragraph at lines 3--3
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (836.21802pt too wide) in paragraph at lines 4--4
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (118.66199pt too wide) in paragraph at lines 7--7
+ [][] [] [][]  
+ []
+
+
+Overfull \hbox (160.10646pt too wide) in paragraph at lines 8--8
+ [][] [] [][]  
+ []
+
+)
 \tf@tdo=\write8
 \openout8 = `report.tdo'.
 
@@ -1445,6 +1456,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
 
 Package natbib Warning: There were undefined citations.
 
@@ -1458,28 +1470,16 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 [5]
 No complaints by nag.
 (report.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F3942C4E05D5FFB25692A42C3F01CCC7;756.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 7F65B99056C2AC11ABF4F31A9B48E6A0;872.
  ) 
 Here is how much of TeX's memory you used:
- 37107 strings out of 478865
- 733919 string characters out of 2858540
- 1397183 words of memory out of 3000000
- 54221 multiletter control sequences out of 15000+600000
- 410312 words of font info for 54 fonts, out of 8000000 for 9000
+ 37129 strings out of 478865
+ 734412 string characters out of 2858540
+ 1400703 words of memory out of 3000000
+ 54232 multiletter control sequences out of 15000+600000
+ 410617 words of font info for 55 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 122i,13n,134p,489b,977s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 122i,13n,134p,543b,977s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (5 pages, 83668 bytes).
+Output written on report.dvi (5 pages, 100920 bytes).
