@@ -1,0 +1,102 @@
+\documentclass{amsart}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL report.tex       Tue Jul 20 12:22:39 2021
+%DIF ADD report_new.tex   Tue Jul 20 12:22:40 2021
+\synctex=1
+
+%=================================================================
+% 
+\newcount\DraftStatus  % 0 suppresses notes to selves in text
+\DraftStatus=1   % TODO: set to 0 for final version
+%=================================================================
+
+%=================================================================
+\usepackage{comment}
+%=================================================================
+%
+\includecomment{JournalOnly}  
+\includecomment{ConferenceOnly}  
+\includecomment{TulipStyle}
+%
+%=================================================================
+\input{preamble}
+
+
+%=================================================================
+%
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+%
+%=================================================================
+%
+\title[Bike Sharing Demand]{\DIFdelbegin \DIFdel{car }\DIFdelend \DIFaddbegin \DIFadd{bike }\DIFaddend Sharing Demand Forecast use of a city bikeshare system}%
+
+\author{Miriam Zhu}
+\DIFdelbegin %DIFDELCMD < \address[A.~1]{School of Data Science,\\ 
+%DIFDELCMD < Deakin University, Burwood 3125, Australia}%%%
+\DIFdelend \DIFaddbegin \address[A.]{School of Information Technology,\\ 
+Deakin University, Burwood 3125, Australia}\DIFaddend %
+\DIFdelbegin %DIFDELCMD < \email[A.]{zhudo@tulip.academy}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \email[A.]{zhudo@deakin.edu.au}
+\DIFaddend 
+
+
+%\thanks{Thanks to \ldots}%
+\subjclass{Artificial Intelligence}%
+\date{\gitAuthorDate}%
+
+\input{abstract}
+
+
+\maketitle
+\tableofcontents
+
+\newpage
+%=================================================================
+
+\input{mainbody}
+
+
+
+
+
+\end{document}
+

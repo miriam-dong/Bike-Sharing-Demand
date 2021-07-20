@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  5 JUL 2021 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.6.16)  20 JUL 2021 12:20
 entering extended mode
 **./report.tex
 (report.tex
@@ -1243,7 +1243,20 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \c@example=\count400
 \c@definition=\count401
 \c@Algorithms=\count402
-)) (report.aux)
+)) (report.aux
+
+LaTeX Warning: Label `framework' multiply defined.
+
+
+LaTeX Warning: Label `framework@cref' multiply defined.
+
+
+LaTeX Warning: Label `framework' multiply defined.
+
+
+LaTeX Warning: Label `framework@cref' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1266,8 +1279,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 
-
-(D:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (D:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
@@ -1328,78 +1340,25 @@ or `english'. on input line 24.
 \openout7 = `report.toc'.
 
  [1] (mainbody.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 5.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-Package natbib Warning: Citation `BL12J01' on page 2 undefined on input line 45
-.
-
-Including 'JournalOnly' comment.
-\openout3 = `comment.cut'.
-
- Straight input of comment.cut. (comment.cut
-
-Package natbib Warning: Citation `BJL11J01' on page 2 undefined on input line 1
-.
-
-
-Package natbib Warning: Citation `BJL11J01' on page 2 undefined on input line 1
-.
-
-)
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
 (D:\Program Files\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (D:\Program Files\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Including 'ConferenceOnly' comment.
-\openout3 = `comment.cut'.
+Overfull \hbox (10.34506pt too wide) in paragraph at lines 21--40
+[][] 
+ []
 
- Straight input of comment.cut. (comment.cut)
+File: figures//Time_trends_day.eps Graphic file (type eps)
+<figures//Time_trends_day.eps>
+File: figures//cor_rank.eps Graphic file (type eps)
+ <figures//cor_rank.eps>
+File: figures//weather.eps Graphic file (type eps)
+ <figures//weather.eps>
 File: logos/tulip-logo.eps Graphic file (type eps)
- <logos/tulip-logo.eps>
+
+<logos/tulip-logo.eps>
 
 Package fancyhdr Warning: \footskip is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.79996pt, for example:
@@ -1414,6 +1373,10 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
 [3])
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 File: logos/tulip-logo.eps Graphic file (type eps)
  <logos/tulip-logo.eps>
 
@@ -1422,64 +1385,21 @@ Package fancyhdr Warning: \footskip is too small (12.0pt):
 (fancyhdr)                \setlength{\footskip}{14.79996pt}.
 
 [4]
-No file report.bbl.
-(report.tdo
-Overfull \hbox (914.5239pt too wide) in paragraph at lines 2--2
- [][] [] [][]  
- []
-
-
-Overfull \hbox (841.91252pt too wide) in paragraph at lines 3--3
- [][] [] [][]  
- []
-
-
-Overfull \hbox (836.21802pt too wide) in paragraph at lines 4--4
- [][] [] [][]  
- []
-
-
-Overfull \hbox (118.66199pt too wide) in paragraph at lines 7--7
- [][] [] [][]  
- []
-
-
-Overfull \hbox (160.10646pt too wide) in paragraph at lines 8--8
- [][] [] [][]  
- []
-
-)
-\tf@tdo=\write8
-\openout8 = `report.tdo'.
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-Package natbib Warning: There were undefined citations.
-
-File: logos/tulip-logo.eps Graphic file (type eps)
-<logos/tulip-logo.eps>
-
-Package fancyhdr Warning: \footskip is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.79996pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.79996pt}.
-
-[5]
 No complaints by nag.
 (report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 7F65B99056C2AC11ABF4F31A9B48E6A0;872.
+(rerunfilecheck)             Checksum: 0BA61BFCBEB2ADF78E7F0A21AD98FF81;980.
  ) 
 Here is how much of TeX's memory you used:
- 37129 strings out of 478865
- 734412 string characters out of 2858540
- 1400703 words of memory out of 3000000
- 54232 multiletter control sequences out of 15000+600000
- 410617 words of font info for 55 fonts, out of 8000000 for 9000
+ 36847 strings out of 478865
+ 728317 string characters out of 2858540
+ 1203399 words of memory out of 3000000
+ 53957 multiletter control sequences out of 15000+600000
+ 410012 words of font info for 53 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 122i,13n,134p,543b,977s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 122i,12n,134p,543b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (5 pages, 100920 bytes).
+Output written on report.dvi (4 pages, 27932 bytes).

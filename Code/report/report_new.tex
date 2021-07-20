@@ -1,0 +1,56 @@
+\documentclass{amsart}
+\synctex=1
+
+%=================================================================
+% 
+\newcount\DraftStatus  % 0 suppresses notes to selves in text
+\DraftStatus=1   % TODO: set to 0 for final version
+%=================================================================
+
+%=================================================================
+\usepackage{comment}
+%=================================================================
+%
+\includecomment{JournalOnly}  
+\includecomment{ConferenceOnly}  
+\includecomment{TulipStyle}
+%
+%=================================================================
+\input{preamble}
+
+
+%=================================================================
+%
+\begin{document}
+%
+%=================================================================
+%
+\title[Bike Sharing Demand]{bike Sharing Demand Forecast use of a city bikeshare system}%
+
+\author{Miriam Zhu}
+\address[A.]{School of Information Technology,\\ 
+Deakin University, Burwood 3125, Australia}%
+\email[A.]{zhudo@deakin.edu.au}
+
+
+%\thanks{Thanks to \ldots}%
+\subjclass{Artificial Intelligence}%
+\date{\gitAuthorDate}%
+
+\input{abstract}
+
+
+\maketitle
+\tableofcontents
+
+\newpage
+%=================================================================
+
+\input{mainbody}
+
+
+
+
+
+\end{document}
+
